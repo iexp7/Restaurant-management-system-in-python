@@ -1,0 +1,52 @@
+[
+    {
+        "id": "6000000001",
+        "table_number": 1,
+        "status": "Available"
+    },
+    {
+        "id": "6000000002",
+        "table_number": 2,
+        "status": "Available"
+    },
+    {
+        "id": "6000000003",
+        "table_number": 3,
+        "status": "Available"
+    },
+    {
+        "id": "6000000004",
+        "table_number": 4,
+        "status": "Available"
+    },
+    {
+        "id": "6000000005",
+        "table_number": 5,
+        "status": "Available"
+    },
+    {
+        "id": "6000000006",
+        "table_number": 6,
+        "status": "Available"
+    },
+    {
+        "id": "6000000007",
+        "table_number": 7,
+        "status": "Available"
+    },
+    {
+        "id": "6000000008",
+        "table_number": 8,
+        "status": "Available"
+    },
+    {
+        "id": "6000000009",
+        "table_number": 9,
+        "status": "Available"
+    },
+    {
+        "id": "6000000010",
+        "table_number": 10,
+        "status": "Available"
+    }
+]
