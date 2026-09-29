@@ -2,9 +2,10 @@ from display import Display
 
 
 def main():
-    Restaurentmanagementsystem_python = Display()
-    Restaurentmanagementsystem_python.start()
+    restaurant_management_system = Display()
+    restaurant_management_system.start()
 
 
 if __name__ == "__main__":
     main()
+    
