@@ -78,5 +78,9 @@
     {
         "time": "2026-10-01 14:34:34",
         "message": "Invalid table ID."
+    },
+    {
+        "time": "2026-10-01 15:26:40",
+        "message": "Table not found: 7000000005"
     }
 ]
