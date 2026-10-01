@@ -26,9 +26,7 @@ class CancelOrder(OrderManagement):
             return
 
         if staff_id and order.get("staff_id") != staff_id:
-            self.save_error(
-                "Staff tried to cancel another staff order."
-            )
+            self.save_error("Staff tried to cancel another staff order.")
             print("You can cancel only your own order.")
             return
 
@@ -36,9 +34,7 @@ class CancelOrder(OrderManagement):
             print("Order is already cancelled.")
             return
 
-        confirm = input(
-            "Cancel this order? (yes/no): "
-        ).strip().lower()
+        confirm = input("Cancel this order? (yes/no): ").strip().lower()
 
         if confirm == "back" or confirm == "no":
             print("Cancellation cancelled.")

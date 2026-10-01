@@ -87,6 +87,7 @@ class ViewTables:
             print("\nTable ID     :", table.get("id"))
             print("Table Number :", table.get("table_number"))
             print("Status       :", table.get("status"))
+            print("")
             print("-----------------------------------")
 
         self.log("Tables viewed.")

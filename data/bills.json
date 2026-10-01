@@ -1,1 +1,24 @@
-[]
+[
+    {
+        "id": "4000000001",
+        "order_id": "3000000001",
+        "date": "2026-09-30 11:19:34",
+        "subtotal": 200,
+        "discount_percent": 10.0,
+        "discount": 20.0,
+        "gst": 9.0,
+        "total": 189.0,
+        "payment": "Card"
+    },
+    {
+        "id": "4000000002",
+        "order_id": "3000000001",
+        "date": "2026-09-30 11:40:01",
+        "subtotal": 200,
+        "discount_percent": 5.0,
+        "discount": 10.0,
+        "gst": 9.5,
+        "total": 199.5,
+        "payment": "Online"
+    }
+]

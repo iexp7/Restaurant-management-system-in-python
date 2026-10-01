@@ -15,8 +15,7 @@ class OrderManagement:
         self.create_files()
 
     def create_files(self):
-        for path in [self.file_path, self.menu_file,
-                     self.log_file, self.error_file]:
+        for path in [self.file_path, self.menu_file,self.log_file, self.error_file]:
 
             folder = os.path.dirname(path)
 
@@ -59,8 +58,7 @@ class OrderManagement:
 
         errors.append({
             "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "message": message
-        })
+            "message": message})
 
         with open(self.error_file, "w") as file:
             json.dump(errors, file, indent=4)
@@ -69,8 +67,7 @@ class OrderManagement:
         with open(self.log_file, "a") as file:
             file.write(
                 datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                + " - " + message + "\n"
-            )
+                + " - " + message + "\n")
 
     def generate_order_id(self, orders):
         number = 3000000001
@@ -78,8 +75,7 @@ class OrderManagement:
         if orders:
             numbers = [
                 int(order["id"]) for order in orders
-                if order.get("id", "").isdigit()
-            ]
+                if order.get("id", "").isdigit()]
 
             if numbers:
                 number = max(numbers) + 1

@@ -45,8 +45,7 @@ class Menu:
 
         errors.append({
             "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "message": message
-        })
+            "message": message})
 
         with open(self.error_file, "w") as file:
             json.dump(errors, file, indent=4)
@@ -55,8 +54,7 @@ class Menu:
         with open(self.log_file, "a") as file:
             file.write(
                 datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                + " - " + message + "\n"
-            )
+                + " - " + message + "\n")
 
     def create_default_menu(self):
         items = self.load_items()

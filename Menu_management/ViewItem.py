@@ -40,8 +40,7 @@ class ViewItem:
 
         errors.append({
             "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "message": message
-        })
+            "message": message})
 
         with open(self.error_file, "w") as file:
             json.dump(errors, file, indent=4)
@@ -50,8 +49,7 @@ class ViewItem:
         with open(self.log_file, "a") as file:
             file.write(
                 datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                + " - " + message + "\n"
-            )
+                + " - " + message + "\n")
 
     def view_items(self):
         items = self.load_items()

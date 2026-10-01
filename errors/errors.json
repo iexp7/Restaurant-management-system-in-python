@@ -10,5 +10,73 @@
     {
         "time": "2026-09-29 16:18:25",
         "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-09-30 11:02:40",
+        "message": "staff login failed for username: six67seven"
+    },
+    {
+        "time": "2026-09-30 11:13:08",
+        "message": "Invalid menu item ID."
+    },
+    {
+        "time": "2026-09-30 11:13:41",
+        "message": "Invalid menu item ID."
+    },
+    {
+        "time": "2026-09-30 11:14:46",
+        "message": "Order not found: 2000000020"
+    },
+    {
+        "time": "2026-09-30 11:17:28",
+        "message": "Invalid order size."
+    },
+    {
+        "time": "2026-09-30 11:40:47",
+        "message": "Stock not found: 2000000021"
+    },
+    {
+        "time": "2026-09-30 11:41:43",
+        "message": "Invalid stock quantity."
+    },
+    {
+        "time": "2026-09-30 14:52:56",
+        "message": "staff login failed for username: six6Ten"
+    },
+    {
+        "time": "2026-10-01 14:07:51",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-01 14:07:52",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-01 14:07:52",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-01 14:07:52",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-01 14:07:53",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-01 14:08:07",
+        "message": "admin login failed for username: bhupendra"
+    },
+    {
+        "time": "2026-10-01 14:30:02",
+        "message": "Invalid staff ID."
+    },
+    {
+        "time": "2026-10-01 14:34:00",
+        "message": "Invalid staff ID."
+    },
+    {
+        "time": "2026-10-01 14:34:34",
+        "message": "Invalid table ID."
     }
 ]
