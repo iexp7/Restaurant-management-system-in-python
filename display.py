@@ -316,6 +316,7 @@ class Display:
 
     def inventory_menu(self):
         while True:
+           
             print("\n========== INVENTORY MANAGEMENT ==========")
             print("1. Add Stock")
             print("2. View Stock")
@@ -333,4 +334,5 @@ class Display:
                 break
             else:
                 self.admin.save_error("Invalid inventory choice.")
-                print("Invalid choice.")
+                print("Invalid choice.") 
+                
