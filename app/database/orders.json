@@ -1,0 +1,309 @@
+[
+    {
+        "id": "3000000001",
+        "staff_id": "1000000002",
+        "date": "2026-09-30 11:14:25",
+        "status": "Active",
+        "items": [
+            {
+                "item_id": "1020",
+                "name": "Chicken Wrap",
+                "size": "Half",
+                "price": 100,
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "id": "3000000002",
+        "staff_id": "1000000002",
+        "date": "2026-10-03 10:40:43",
+        "status": "Active",
+        "items": [
+            {
+                "item_id": "1001",
+                "name": "Chicken Biryani",
+                "size": "Full",
+                "price": 220,
+                "quantity": 1
+            },
+            {
+                "item_id": "1002",
+                "name": "Chicken Fried Rice",
+                "size": "Full",
+                "price": 180,
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "id": "3000000003",
+        "staff_id": "1000000002",
+        "date": "2026-10-04 23:19:07",
+        "status": "Active",
+        "items": [
+            {
+                "item_id": "1020",
+                "name": "Chicken Wrap",
+                "size": "Full",
+                "price": 170,
+                "quantity": 3
+            }
+        ]
+    },
+    {
+        "id": "3000000004",
+        "staff_id": "1000000003",
+        "date": "2026-10-05 09:56:03",
+        "status": "Active",
+        "items": [
+            {
+                "item_id": "1001",
+                "name": "Chicken Biryani",
+                "size": "Full",
+                "price": 220,
+                "quantity": 1
+            },
+            {
+                "item_id": "1001",
+                "name": "Chicken Biryani",
+                "size": "Half",
+                "price": 130,
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "id": "3000000005",
+        "staff_id": "1000000003",
+        "date": "2026-10-05 14:11:15",
+        "status": "Active",
+        "items": [
+            {
+                "item_id": "1020",
+                "name": "Chicken Wrap",
+                "size": "Full",
+                "price": 170,
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "id": "3000000006",
+        "staff_id": "1000000003",
+        "date": "2026-10-05 14:14:41",
+        "status": "Active",
+        "items": [
+            {
+                "item_id": "1020",
+                "name": "Chicken Wrap",
+                "size": "Half",
+                "price": 100,
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "id": "3000000007",
+        "staff_id": "1000000004",
+        "date": "2026-10-05 14:42:05",
+        "status": "Active",
+        "items": [
+            {
+                "item_id": "1010",
+                "name": "Thai Noodles",
+                "size": "Full",
+                "price": 180,
+                "quantity": 1
+            },
+            {
+                "item_id": "1010",
+                "name": "Thai Noodles",
+                "size": "Full",
+                "price": 180,
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "id": "3000000008",
+        "booking_id": "8000000008",
+        "table_id": "8000000048",
+        "customer_name": "monty",
+        "staff_id": "1000000003",
+        "date": "2026-10-05 19:31:22",
+        "status": "Complete",
+        "items": [
+            {
+                "item_id": "1014",
+                "name": "Margherita Pizza",
+                "size": "Full",
+                "price": 240,
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "id": "3000000009",
+        "booking_id": "8000000009",
+        "table_id": "8000000048",
+        "customer_name": "abhinav",
+        "staff_id": "1000000003",
+        "date": "2026-10-05 20:22:50",
+        "status": "Complete",
+        "items": [
+            {
+                "item_id": "1013",
+                "name": "Chicken Pizza",
+                "size": "Full",
+                "price": 280,
+                "quantity": 2
+            },
+            {
+                "item_id": "1018",
+                "name": "Garlic Bread",
+                "size": "Half",
+                "price": 80,
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "id": "3000000010",
+        "booking_id": "8000000010",
+        "table_id": "8000000047",
+        "customer_name": "erish",
+        "staff_id": "1000000003",
+        "date": "2026-10-05 20:56:22",
+        "status": "Complete",
+        "items": [
+            {
+                "item_id": "1020",
+                "name": "Chicken Wrap",
+                "size": "Full",
+                "price": 170,
+                "quantity": 1
+            },
+            {
+                "item_id": "1010",
+                "name": "Thai Noodles",
+                "size": "Half",
+                "price": 110,
+                "quantity": 1
+            },
+            {
+                "item_id": "1001",
+                "name": "Chicken Biryani",
+                "size": "Half",
+                "price": 130,
+                "quantity": 1
+            },
+            {
+                "item_id": "1007",
+                "name": "Paneer Tikka",
+                "size": "Half",
+                "price": 115,
+                "quantity": 1
+            },
+            {
+                "item_id": "1007",
+                "name": "Paneer Tikka",
+                "size": "Half",
+                "price": 115,
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "id": "3000000011",
+        "booking_id": "8000000011",
+        "table_id": "8000000044",
+        "customer_name": "rose",
+        "staff_id": "1000000004",
+        "date": "2026-10-06 10:02:33",
+        "status": "Active",
+        "items": [
+            {
+                "item_id": "1014",
+                "name": "Margherita Pizza",
+                "size": "Half",
+                "price": 150,
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "id": "3000000012",
+        "booking_id": "8000000011",
+        "table_id": "8000000044",
+        "customer_name": "rose",
+        "staff_id": "1000000004",
+        "date": "2026-10-06 10:11:44",
+        "status": "Complete",
+        "items": [
+            {
+                "item_id": "1001",
+                "name": "Chicken Biryani",
+                "size": "Full",
+                "price": 220,
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "id": "3000000013",
+        "booking_id": "8000000012",
+        "table_id": "8000000007",
+        "customer_name": "yhwach",
+        "staff_id": "1000000003",
+        "date": "2026-10-06 10:35:13",
+        "status": "Active",
+        "items": [
+            {
+                "item_id": "1001",
+                "name": "Chicken Biryani",
+                "size": "Full",
+                "price": 220,
+                "quantity": 3
+            }
+        ]
+    },
+    {
+        "id": "3000000014",
+        "booking_id": "8000000012",
+        "table_id": "8000000007",
+        "customer_name": "yhwach",
+        "staff_id": "1000000003",
+        "date": "2026-10-06 10:50:12",
+        "status": "Complete",
+        "items": [
+            {
+                "item_id": "1001",
+                "name": "Chicken Biryani",
+                "size": "Full",
+                "price": 220,
+                "quantity": 3
+            }
+        ],
+        "inventory_deducted": true
+    },
+    {
+        "id": "3000000015",
+        "booking_id": "8000000014",
+        "table_id": "8000000051",
+        "customer_name": "riju",
+        "staff_id": "1000000003",
+        "date": "2026-10-07 13:24:49",
+        "status": "Complete",
+        "items": [
+            {
+                "item_id": "2000000026",
+                "name": "Cold Coffee",
+                "size": "Regular",
+                "price": 120,
+                "quantity": 1
+            }
+        ],
+        "inventory_deducted": true
+    }
+]

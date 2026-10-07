@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1000000001",
+        "username": "bhup3ndr@",
+        "password": "291769",
+        "role": "admin"
+    },
+    {
+        "id": "1000000002",
+        "username": "six69nine",
+        "password": "6969",
+        "role": "staff"
+    },
+    {
+        "id": "1000000003",
+        "username": "dev",
+        "password": "1234",
+        "role": "staff"
+    },
+    {
+        "id": "1000000004",
+        "username": "xyz",
+        "password": "1234",
+        "role": "staff"
+    }
+]

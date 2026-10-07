@@ -1,0 +1,634 @@
+[
+    {
+        "time": "2026-09-29 16:18:25",
+        "message": "admin login failed for username: bhupendra"
+    },
+    {
+        "time": "2026-09-29 16:18:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-09-29 16:18:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-09-30 11:02:40",
+        "message": "staff login failed for username: six67seven"
+    },
+    {
+        "time": "2026-09-30 11:13:08",
+        "message": "Invalid menu item ID."
+    },
+    {
+        "time": "2026-09-30 11:13:41",
+        "message": "Invalid menu item ID."
+    },
+    {
+        "time": "2026-09-30 11:14:46",
+        "message": "Order not found: 2000000020"
+    },
+    {
+        "time": "2026-09-30 11:17:28",
+        "message": "Invalid order size."
+    },
+    {
+        "time": "2026-09-30 11:40:47",
+        "message": "Stock not found: 2000000021"
+    },
+    {
+        "time": "2026-09-30 11:41:43",
+        "message": "Invalid stock quantity."
+    },
+    {
+        "time": "2026-09-30 14:52:56",
+        "message": "staff login failed for username: six6Ten"
+    },
+    {
+        "time": "2026-10-01 14:07:51",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-01 14:07:52",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-01 14:07:52",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-01 14:07:52",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-01 14:07:53",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-01 14:08:07",
+        "message": "admin login failed for username: bhupendra"
+    },
+    {
+        "time": "2026-10-01 14:30:02",
+        "message": "Invalid staff ID."
+    },
+    {
+        "time": "2026-10-01 14:34:00",
+        "message": "Invalid staff ID."
+    },
+    {
+        "time": "2026-10-01 14:34:34",
+        "message": "Invalid table ID."
+    },
+    {
+        "time": "2026-10-01 15:26:40",
+        "message": "Table not found: 7000000005"
+    },
+    {
+        "time": "2026-10-02 12:17:20",
+        "message": "staff login failed for username: six69nine"
+    },
+    {
+        "time": "2026-10-02 12:17:23",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "error": "Booking not found.",
+        "date": "2026-10-02 12:18:44"
+    },
+    {
+        "time": "2026-10-02 12:18:50",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "error": "Invalid booking ID.",
+        "date": "2026-10-02 12:19:04"
+    },
+    {
+        "error": "Booking not found.",
+        "date": "2026-10-02 12:19:11"
+    },
+    {
+        "time": "2026-10-02 12:31:00",
+        "message": "Invalid menu price entered."
+    },
+    {
+        "time": "2026-10-02 12:31:47",
+        "message": "Invalid menu price entered."
+    },
+    {
+        "time": "2026-10-02 12:32:10",
+        "message": "Invalid food category."
+    },
+    {
+        "time": "2026-10-02 17:00:58",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:01:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:01:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:01:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:01:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:01:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:01:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:01:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:01:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:01:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:01:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:01:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:01:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:01:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:01:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:01:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:01:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:01:25",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 17:02:03",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-02 18:08:07",
+        "message": "admin login failed for username: bupendra"
+    },
+    {
+        "time": "2026-10-02 18:08:14",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-03 10:38:35",
+        "message": "Invalid menu item ID."
+    },
+    {
+        "time": "2026-10-03 10:39:04",
+        "message": "Menu item not found: 2000035345"
+    },
+    {
+        "time": "2026-10-03 10:39:48",
+        "message": "Invalid food size."
+    },
+    {
+        "time": "2026-10-03 10:40:06",
+        "message": "Invalid order quantity."
+    },
+    {
+        "time": "2026-10-03 10:58:18",
+        "message": "Invalid admin menu choice."
+    },
+    {
+        "time": "2026-10-03 11:10:41",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-03 11:10:50",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-03 11:35:49",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-03 11:36:28",
+        "message": "staff login failed for username: six69@nine"
+    },
+    {
+        "time": "2026-10-04 20:54:50",
+        "message": "staff login failed for username: bhupendra"
+    },
+    {
+        "time": "2026-10-04 20:56:02",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-04 20:56:23",
+        "message": "Empty password entered during login."
+    },
+    {
+        "time": "2026-10-04 20:56:23",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-04 21:10:32",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-04 23:04:47",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-04 23:04:54",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-04 23:20:03",
+        "message": "Invalid cancellation confirmation."
+    },
+    {
+        "time": "2026-10-04 23:20:37",
+        "message": "Invalid discount percentage."
+    },
+    {
+        "time": "2026-10-04 23:23:15",
+        "message": "Invalid table ID."
+    },
+    {
+        "time": "2026-10-04 23:27:59",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-04 23:30:25",
+        "message": "Table not found: 9000000026"
+    },
+    {
+        "time": "2026-10-04 23:31:34",
+        "message": "Table not found: 9000000026"
+    },
+    {
+        "time": "2026-10-04 23:34:21",
+        "message": "Table not found: 7000000026"
+    },
+    {
+        "time": "2026-10-04 23:34:28",
+        "message": "Invalid table ID."
+    },
+    {
+        "time": "2026-10-04 23:44:54",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-04 23:51:57",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "error": "Invalid booking ID.",
+        "date": "2026-10-04 23:53:46"
+    },
+    {
+        "error": "Booking not found.",
+        "date": "2026-10-04 23:58:26"
+    },
+    {
+        "error": "Invalid booking ID.",
+        "date": "2026-10-04 23:58:44"
+    },
+    {
+        "time": "2026-10-04 23:58:48",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-05 00:13:49",
+        "message": "Invalid table ID."
+    },
+    {
+        "time": "2026-10-05 00:13:56",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-05 00:14:06",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-05 00:14:12",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-05 00:14:27",
+        "message": "Table not found: 9000000026"
+    },
+    {
+        "time": "2026-10-05 00:14:38",
+        "message": "Invalid table ID."
+    },
+    {
+        "error": "Invalid booking ID.",
+        "date": "2026-10-05 00:15:10"
+    },
+    {
+        "time": "2026-10-05 09:03:59",
+        "message": "staff login failed for username: dev"
+    },
+    {
+        "time": "2026-10-05 09:45:46",
+        "message": "Invalid admin menu choice."
+    },
+    {
+        "time": "2026-10-05 09:46:19",
+        "message": "staff login failed for username: 2"
+    },
+    {
+        "time": "2026-10-05 09:46:21",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-05 09:50:54",
+        "message": "staff login failed for username: dev"
+    },
+    {
+        "time": "2026-10-05 09:51:40",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-05 11:38:22",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-05 13:48:30",
+        "message": "Duplicate menu item: Chicken Wrap"
+    },
+    {
+        "time": "2026-10-05 13:56:07",
+        "message": "staff login failed for username: dev"
+    },
+    {
+        "error": "Booking not found.",
+        "date": "2026-10-05 13:56:56"
+    },
+    {
+        "error": "Invalid booking ID.",
+        "date": "2026-10-05 13:57:14"
+    },
+    {
+        "time": "2026-10-05 14:06:54",
+        "message": "staff login failed for username: dev"
+    },
+    {
+        "time": "2026-10-05 14:10:33",
+        "message": "staff login failed for username: C:\\Users\\iambh\\AppData\\Local\\Programs\\Python\\Python314\\python.exe c:/Users/iambh/Documents/Restaurent-management-system/Restaurent-management-system/main.py"
+    },
+    {
+        "time": "2026-10-05 14:11:15",
+        "message": "Invalid add-item choice."
+    },
+    {
+        "time": "2026-10-05 14:11:32",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-05 14:12:56",
+        "message": "Table not found: 2000000020"
+    },
+    {
+        "time": "2026-10-05 14:35:05",
+        "message": "Invalid cancellation confirmation."
+    },
+    {
+        "error": "Table not found.",
+        "date": "2026-10-05 19:17:53"
+    },
+    {
+        "error": "Table not found.",
+        "date": "2026-10-05 19:18:29"
+    },
+    {
+        "error": "Table not found.",
+        "date": "2026-10-05 19:19:02"
+    },
+    {
+        "error": "Table not found.",
+        "date": "2026-10-05 19:19:30"
+    },
+    {
+        "error": "Table not found.",
+        "date": "2026-10-05 19:19:48"
+    },
+    {
+        "error": "Table not found.",
+        "date": "2026-10-05 19:19:54"
+    },
+    {
+        "time": "2026-10-05 19:23:48",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "error": "Table not found.",
+        "date": "2026-10-05 19:24:06"
+    },
+    {
+        "time": "2026-10-05 19:28:56",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-05 19:37:02",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-05 19:42:26",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-05 19:43:50",
+        "message": "Billing attempted for inactive order: 3000000008"
+    },
+    {
+        "time": "2026-10-05 19:51:46",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-05 19:52:15",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-05 20:18:00",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-05 20:19:01",
+        "message": "Billing attempted for inactive order: 3000000008"
+    },
+    {
+        "time": "2026-10-05 20:19:45",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-05 20:24:17",
+        "message": "Invalid payment method."
+    },
+    {
+        "time": "2026-10-05 20:44:32",
+        "message": "Booking not found."
+    },
+    {
+        "time": "2026-10-05 20:58:31",
+        "message": "Billing attempted for inactive order: 3000000010"
+    },
+    {
+        "time": "2026-10-06 09:51:32",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-06 09:52:57",
+        "message": "staff login failed for username: bhupendra"
+    },
+    {
+        "time": "2026-10-06 09:53:06",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-06 10:07:37",
+        "message": "Duplicate stock item: Chicken Biryani"
+    },
+    {
+        "time": "2026-10-06 10:09:23",
+        "message": "Invalid stock quantity during update."
+    },
+    {
+        "time": "2026-10-06 10:12:34",
+        "message": "Invalid billing choice."
+    },
+    {
+        "time": "2026-10-06 10:12:55",
+        "message": "Invalid admin menu choice."
+    },
+    {
+        "time": "2026-10-06 10:28:47",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-06 10:30:16",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "time": "2026-10-06 10:34:04",
+        "message": "Invalid food size."
+    },
+    {
+        "time": "2026-10-06 10:34:16",
+        "message": "Invalid food size."
+    },
+    {
+        "time": "2026-10-06 10:40:51",
+        "message": "Empty password entered during login."
+    },
+    {
+        "time": "2026-10-06 10:41:53",
+        "message": "admin login failed for username: bhup3ndr2"
+    },
+    {
+        "time": "2026-10-06 10:42:04",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-06 10:42:08",
+        "message": "Invalid main menu choice."
+    },
+    {
+        "time": "2026-10-06 10:42:54",
+        "message": "Empty password entered during login."
+    },
+    {
+        "time": "2026-10-06 10:46:13",
+        "message": "admin login failed for username: bhup3ndr@"
+    },
+    {
+        "time": "2026-10-06 14:04:09",
+        "message": "Invalid staff ID."
+    },
+    {
+        "time": "2026-10-07 12:14:28",
+        "message": "Invalid staff menu choice."
+    },
+    {
+        "error": "Invalid number of people.",
+        "date": "2026-10-07 12:43:54"
+    },
+    {
+        "time": "2026-10-07 12:55:05",
+        "message": "Invalid booking ID."
+    },
+    {
+        "time": "2026-10-07 13:03:42",
+        "message": "Invalid food size."
+    },
+    {
+        "time": "2026-10-07 13:06:18",
+        "message": "Invalid food size."
+    },
+    {
+        "time": "2026-10-07 13:06:24",
+        "message": "Invalid food size."
+    },
+    {
+        "time": "2026-10-07 13:08:06",
+        "message": "Inventory item not found: Mineral Water"
+    },
+    {
+        "time": "2026-10-07 13:10:01",
+        "message": "Inventory item not found: Iced Tea"
+    },
+    {
+        "time": "2026-10-07 13:11:53",
+        "message": "Invalid order ID."
+    },
+    {
+        "time": "2026-10-07 13:12:34",
+        "message": "Invalid booking ID."
+    },
+    {
+        "time": "2026-10-07 13:13:26",
+        "message": "Inventory item not found: Mineral Water"
+    },
+    {
+        "time": "2026-10-07 13:21:53",
+        "message": "Inventory item not found: Pepsi"
+    },
+    {
+        "time": "2026-10-07 13:23:29",
+        "message": "Invalid inventory quantity: Pepsi"
+    },
+    {
+        "time": "2026-10-07 18:38:03",
+        "message": "Invalid order ID during status update."
+    },
+    {
+        "time": "2026-10-07 18:45:15",
+        "message": "Invalid inventory choice."
+    }
+]

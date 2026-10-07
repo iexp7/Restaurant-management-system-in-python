@@ -1,0 +1,444 @@
+2026-09-29 14:58:15 - Default Velmora menu created.
+2026-09-29 16:16:55 - Default tables created.
+2026-09-29 16:17:58 - Admin account created.
+2026-09-29 16:18:25 - admin login failed: bhupendra
+2026-09-29 17:50:35 - admin login successful: bhupendra
+2026-09-29 17:50:43 - Tables viewed.
+2026-09-29 17:51:02 - Menu items viewed.
+2026-09-30 11:02:40 - staff login failed: six67seven
+2026-09-30 11:03:10 - admin login successful: bhupendra
+2026-09-30 11:03:41 - Staff account created: six69nine
+2026-09-30 11:04:22 - staff login successful: six69nine
+2026-09-30 11:04:36 - Menu items viewed.
+2026-09-30 11:14:25 - New order created: 3000000001
+2026-09-30 11:14:31 - Orders viewed.
+2026-09-30 11:16:40 - Order updated: 3000000001
+2026-09-30 11:16:46 - Orders viewed.
+2026-09-30 11:17:46 - Orders viewed.
+2026-09-30 11:18:01 - Order updated: 3000000001
+2026-09-30 11:18:06 - Orders viewed.
+2026-09-30 11:18:50 - Total calculated for order: 3000000001
+2026-09-30 11:19:00 - Total calculated for order: 3000000001
+2026-09-30 11:19:20 - Discount calculated for order: 3000000001
+2026-09-30 11:19:34 - Bill generated: 4000000001
+2026-09-30 11:25:41 - Inventory viewed.
+2026-09-30 11:27:30 - Inventory viewed.
+2026-09-30 11:27:41 - Tables viewed.
+2026-09-30 11:29:19 - Staff logged out: six69nine
+2026-09-30 11:31:21 - admin login successful: bhupendra
+2026-09-30 11:32:36 - Menu items viewed.
+2026-09-30 11:32:59 - Menu items viewed.
+2026-09-30 11:33:44 - Orders viewed.
+2026-09-30 11:37:08 - Total calculated for order: 3000000001
+2026-09-30 11:37:08 - 5% GST calculated for order: 3000000001
+2026-09-30 11:37:35 - Total calculated for order: 3000000001
+2026-09-30 11:37:42 - Discount calculated for order: 3000000001
+2026-09-30 11:38:45 - Total calculated for order: 3000000001
+2026-09-30 11:38:48 - Discount calculated for order: 3000000001
+2026-09-30 11:39:45 - Total calculated for order: 3000000001
+2026-09-30 11:39:52 - Discount calculated for order: 3000000001
+2026-09-30 11:40:01 - Bill generated: 4000000002
+2026-09-30 11:40:20 - Inventory viewed.
+2026-09-30 11:42:05 - Inventory viewed.
+2026-09-30 11:49:38 - Inventory viewed.
+2026-09-30 12:10:10 - staff login successful: six69nine
+2026-09-30 12:10:19 - Tables viewed.
+2026-09-30 13:59:15 - admin login successful: bhupendra
+2026-10-01 15:24:39 - admin login successful: bhupendra
+2026-10-01 15:26:45 - Tables viewed.
+2026-10-02 12:13:46 - admin login successful: bhupendra
+2026-10-02 12:13:54 - Tables viewed.
+2026-10-02 12:17:20 - staff login failed: six69nine
+2026-10-02 12:17:41 - staff login successful: six69nine
+2026-10-02 12:18:05 - Tables viewed.
+2026-10-02 12:19:58 - Booking cancelled: 7000000001
+2026-10-02 12:20:47 - Tables viewed.
+2026-10-02 12:29:32 - Menu items viewed.
+2026-10-02 12:29:46 - Staff logged out: six69nine
+2026-10-02 12:29:55 - admin login successful: bhupendra
+2026-10-02 18:08:07 - admin login failed: bupendra
+2026-10-02 18:08:26 - admin login successful: bhupendra
+2026-10-02 18:14:49 - Booking status viewed.
+2026-10-03 10:36:09 - staff login successful: six69nine
+2026-10-03 10:40:43 - New order created: 3000000002
+2026-10-03 10:40:52 - Orders viewed.
+2026-10-03 10:42:02 - Total calculated for order: 3000000002
+2026-10-03 10:42:34 - Total calculated for order: 3000000002
+2026-10-03 10:42:42 - Discount calculated for order: 3000000002
+2026-10-03 10:43:37 - Bill generated: 4000000003
+2026-10-03 10:45:17 - Staff logged out: six69nine
+2026-10-03 10:45:24 - admin login successful: bhupendra
+2026-10-03 10:47:22 - Menu items viewed.
+2026-10-03 10:51:56 - admin login successful: bhupendra
+2026-10-03 10:55:40 - Tables viewed.
+2026-10-03 10:58:43 - staff login successful: six69nine
+2026-10-03 10:58:51 - Tables viewed.
+2026-10-03 11:10:54 - Menu items viewed.
+2026-10-03 11:24:25 - staff login successful: six69nine
+2026-10-03 11:24:36 - Tables viewed.
+2026-10-03 11:36:28 - staff login failed: six69@nine
+2026-10-03 11:36:57 - staff login successful: six69nine
+[2026-10-03 11:54:42] All menu items viewed successfully.
+2026-10-04 20:54:50 - staff login failed: bhupendra
+2026-10-04 20:55:36 - staff login successful: six69nine
+2026-10-04 20:56:35 - staff login successful: six69nine
+2026-10-04 21:03:21 - Table booked: 1234567890
+2026-10-04 21:03:57 - Table booked: 1234567890
+2026-10-04 22:44:05 - staff login successful: six69nine
+[2026-10-04 22:44:09] All tables viewed successfully.
+[2026-10-04 23:04:57] All tables viewed successfully.
+2026-10-04 23:05:26 - staff login successful: six69nine
+[2026-10-04 23:05:34] All tables viewed successfully.
+[2026-10-04 23:07:51] All tables viewed successfully.
+[2026-10-04 23:08:05] All tables viewed successfully.
+[2026-10-04 23:09:05] All tables viewed successfully.
+[2026-10-04 23:09:32] All tables viewed successfully.
+[2026-10-04 23:10:10] All tables viewed successfully.
+[2026-10-04 23:10:39] All tables viewed successfully.
+[2026-10-04 23:11:13] All tables viewed successfully.
+[2026-10-04 23:11:55] All tables viewed successfully.
+[2026-10-04 23:12:25] All tables viewed successfully.
+2026-10-04 23:14:46 - staff login successful: six69nine
+[2026-10-04 23:14:48] All menu items viewed successfully.
+[2026-10-04 23:15:43] All menu items viewed successfully.
+[2026-10-04 23:16:22] All menu items viewed successfully.
+[2026-10-04 23:17:10] All menu items viewed successfully.
+2026-10-04 23:17:56 - staff login successful: six69nine
+[2026-10-04 23:17:57] All menu items viewed successfully.
+2026-10-04 23:19:07 - New order created: 3000000003
+2026-10-04 23:19:14 - Orders viewed.
+2026-10-04 23:20:21 - Total calculated for order: 3000000003
+2026-10-04 23:20:34 - Total calculated for order: 3000000003
+2026-10-04 23:20:47 - Total calculated for order: 3000000003
+2026-10-04 23:20:53 - Discount calculated for order: 3000000003
+2026-10-04 23:21:04 - Bill generated: 4000000004
+2026-10-04 23:21:29 - Inventory viewed.
+[2026-10-04 23:22:47] All tables viewed successfully.
+2026-10-04 23:28:17 - staff login successful: six69nine
+[2026-10-04 23:28:29] All tables viewed successfully.
+[2026-10-04 23:29:59] All tables viewed successfully.
+2026-10-04 23:33:43 - staff login successful: six69nine
+2026-10-04 23:45:10 - staff login successful: six69nine
+[2026-10-04 23:45:20] All tables viewed successfully.
+2026-10-04 23:46:47 - Table booked: 9000000026
+[2026-10-04 23:47:26] All tables viewed successfully.
+2026-10-04 23:52:17 - staff login successful: six69nine
+[2026-10-04 23:52:19] All tables viewed successfully.
+2026-10-04 23:53:54 - Booking status viewed.
+2026-10-04 23:56:19 - staff login successful: six69nine
+[2026-10-04 23:56:23] All tables viewed successfully.
+2026-10-04 23:57:30 - Booking cancelled: 9000000002
+[2026-10-04 23:57:36] All tables viewed successfully.
+2026-10-05 00:13:17 - staff login successful: six69nine
+[2026-10-05 00:13:20] All tables viewed successfully.
+2026-10-05 00:15:15 - Booking status viewed.
+2026-10-05 00:15:27 - Booking status viewed.
+2026-10-05 00:16:49 - Booking status viewed.
+[2026-10-05 00:17:04] All tables viewed successfully.
+[2026-10-05 00:17:31] All tables viewed successfully.
+2026-10-05 00:18:23 - Table booked: 8000000026
+2026-10-05 00:18:52 - Booking status viewed.
+2026-10-05 00:19:21 - Booking cancelled: 9000000003
+[2026-10-05 00:19:28] All tables viewed successfully.
+2026-10-05 00:20:39 - Table booked: 8000000001
+[2026-10-05 00:20:44] All tables viewed successfully.
+2026-10-05 00:21:04 - Booking cancelled: 9000000004
+[2026-10-05 00:21:09] All tables viewed successfully.
+2026-10-05 09:01:42 - admin login successful: bhupendra
+2026-10-05 09:02:09 - Staff account created: devv
+2026-10-05 09:03:59 - staff login failed: dev
+2026-10-05 09:04:33 - staff login successful: dev
+[2026-10-05 09:04:38] All menu items viewed successfully.
+[2026-10-05 09:05:28] All tables viewed successfully.
+2026-10-05 09:06:24 - Table booked: 8000000046
+2026-10-05 09:06:29 - Booking status viewed.
+2026-10-05 09:06:47 - Booking cancelled: 9000000005
+[2026-10-05 09:06:59] All tables viewed successfully.
+2026-10-05 09:42:44 - admin login successful: bhupendra
+2026-10-05 09:46:19 - staff login failed: 2
+2026-10-05 09:46:33 - staff login successful: six69nine
+[2026-10-05 09:46:46] All tables viewed successfully.
+2026-10-05 09:48:56 - Table booked: 8000000041
+[2026-10-05 09:49:02] All tables viewed successfully.
+2026-10-05 09:50:35 - Staff logged out: six69nine
+2026-10-05 09:50:54 - staff login failed: dev
+2026-10-05 09:51:05 - staff login successful: dev
+[2026-10-05 09:51:42] All menu items viewed successfully.
+2026-10-05 09:56:03 - New order created: 3000000004
+2026-10-05 09:57:04 - Total calculated for order: 3000000004
+2026-10-05 09:58:15 - Discount calculated for order: 3000000004
+2026-10-05 09:58:55 - Bill generated: 4000000005
+2026-10-05 10:01:45 - Total calculated for order: 3000000002
+2026-10-05 10:02:20 - Discount calculated for order: 3000000002
+2026-10-05 10:04:47 - Bill generated: 4000000006
+2026-10-05 11:34:10 - staff login successful: dev
+2026-10-05 11:38:41 - staff login successful: dev
+2026-10-05 12:32:32 - admin login successful: bhupendra
+[2026-10-05 12:33:02] All menu items viewed successfully.
+[2026-10-05 12:34:02] All menu items viewed successfully.
+[2026-10-05 12:34:39] All menu items viewed successfully.
+[2026-10-05 12:34:57] All menu items viewed successfully.
+[2026-10-05 12:35:05] All menu items viewed successfully.
+[2026-10-05 12:35:32] All menu items viewed successfully.
+[2026-10-05 12:35:48] All menu items viewed successfully.
+[2026-10-05 12:35:59] All menu items viewed successfully.
+[2026-10-05 12:36:12] All menu items viewed successfully.
+[2026-10-05 12:36:58] All menu items viewed successfully.
+[2026-10-05 12:37:33] All menu items viewed successfully.
+[2026-10-05 12:38:04] All menu items viewed successfully.
+[2026-10-05 12:38:21] All menu items viewed successfully.
+[2026-10-05 12:38:35] All menu items viewed successfully.
+[2026-10-05 12:38:44] All menu items viewed successfully.
+[2026-10-05 12:38:52] All menu items viewed successfully.
+[2026-10-05 12:39:26] All menu items viewed successfully.
+[2026-10-05 12:39:55] All menu items viewed successfully.
+[2026-10-05 12:40:20] All menu items viewed successfully.
+[2026-10-05 12:41:10] All menu items viewed successfully.
+[2026-10-05 12:41:29] All menu items viewed successfully.
+[2026-10-05 12:41:48] All menu items viewed successfully.
+[2026-10-05 12:42:11] All menu items viewed successfully.
+[2026-10-05 12:42:27] All menu items viewed successfully.
+[2026-10-05 12:42:46] All menu items viewed successfully.
+[2026-10-05 12:42:57] All menu items viewed successfully.
+[2026-10-05 12:43:13] All menu items viewed successfully.
+[2026-10-05 12:43:29] All menu items viewed successfully.
+[2026-10-05 12:44:09] All menu items viewed successfully.
+[2026-10-05 12:44:30] All menu items viewed successfully.
+[2026-10-05 12:44:45] All menu items viewed successfully.
+[2026-10-05 12:45:03] All menu items viewed successfully.
+[2026-10-05 12:45:24] All menu items viewed successfully.
+[2026-10-05 12:45:55] All menu items viewed successfully.
+[2026-10-05 12:46:25] All menu items viewed successfully.
+[2026-10-05 12:46:48] All menu items viewed successfully.
+2026-10-05 12:47:33 - staff login successful: dev
+[2026-10-05 12:47:37] All menu items viewed successfully.
+[2026-10-05 12:48:29] All tables viewed successfully.
+2026-10-05 12:48:53 - Staff logged out: dev
+2026-10-05 12:49:00 - admin login successful: bhupendra
+2026-10-05 13:48:00 - admin login successful: bhup3ndr@
+[2026-10-05 13:48:05] All menu items viewed successfully.
+2026-10-05 13:49:50 - admin login successful: bhup3ndr@
+[2026-10-05 13:50:19] All menu items viewed successfully.
+2026-10-05 13:56:07 - staff login failed: dev
+2026-10-05 13:56:18 - staff login successful: dev
+[2026-10-05 13:56:35] All tables viewed successfully.
+2026-10-05 13:57:29 - Booking status viewed.
+[2026-10-05 13:57:50] All tables viewed successfully.
+2026-10-05 13:58:50 - staff login successful: dev
+2026-10-05 13:58:56 - Booking status viewed.
+[2026-10-05 13:59:21] All tables viewed successfully.
+2026-10-05 14:00:16 - staff login successful: dev
+[2026-10-05 14:00:25] All tables viewed successfully.
+2026-10-05 14:06:24 - staff login successful: dev
+[2026-10-05 14:06:28] All tables viewed successfully.
+2026-10-05 14:06:54 - staff login failed: dev
+2026-10-05 14:07:07 - staff login successful: dev
+[2026-10-05 14:07:15] All tables viewed successfully.
+2026-10-05 14:08:00 - Table booked: 8000000051
+[2026-10-05 14:08:23] All menu items viewed successfully.
+2026-10-05 14:10:33 - staff login failed: C:\Users\iambh\AppData\Local\Programs\Python\Python314\python.exe c:/Users/iambh/Documents/Restaurent-management-system/Restaurent-management-system/main.py
+2026-10-05 14:10:40 - staff login successful: dev
+[2026-10-05 14:10:51] All tables viewed successfully.
+[2026-10-05 14:10:55] All menu items viewed successfully.
+2026-10-05 14:11:15 - New order created: 3000000005
+2026-10-05 14:11:32 - Booking status viewed.
+2026-10-05 14:11:48 - Booking status viewed.
+2026-10-05 14:12:25 - staff login successful: dev
+2026-10-05 14:12:40 - Inventory viewed.
+[2026-10-05 14:13:09] All tables viewed successfully.
+[2026-10-05 14:13:55] All menu items viewed successfully.
+2026-10-05 14:14:41 - New order created: 3000000006
+2026-10-05 14:15:38 - Total calculated for order: 3000000006
+2026-10-05 14:15:58 - Total calculated for order: 3000000006
+2026-10-05 14:16:06 - Discount calculated for order: 3000000006
+2026-10-05 14:16:12 - Bill generated: 4000000007
+2026-10-05 14:18:26 - Booking status viewed.
+[2026-10-05 14:18:51] All menu items viewed successfully.
+2026-10-05 14:19:03 - Booking cancelled: 9000000006
+[2026-10-05 14:19:15] All tables viewed successfully.
+2026-10-05 14:34:17 - staff login successful: dev
+2026-10-05 14:34:23 - Orders viewed.
+2026-10-05 14:35:16 - Order cancelled: 3000000005
+2026-10-05 14:35:21 - Orders viewed.
+2026-10-05 14:38:55 - admin login successful: bhup3ndr@
+[2026-10-05 14:39:08] All menu items viewed successfully.
+2026-10-05 14:40:20 - Staff account created: xyz
+2026-10-05 14:40:37 - staff login successful: xyz
+[2026-10-05 14:40:59] All menu items viewed successfully.
+2026-10-05 14:42:05 - New order created: 3000000007
+2026-10-05 14:42:13 - Orders viewed.
+2026-10-05 14:43:29 - Total calculated for order: 3000000007
+2026-10-05 14:44:01 - Total calculated for order: 3000000007
+2026-10-05 14:44:11 - Discount calculated for order: 3000000007
+2026-10-05 14:44:26 - Bill generated: 4000000008
+2026-10-05 14:44:41 - Orders viewed.
+2026-10-05 15:00:56 - staff login successful: dev
+2026-10-05 15:01:22 - Orders viewed.
+2026-10-05 15:01:39 - Total calculated for order: 3000000006
+2026-10-05 15:01:44 - Discount calculated for order: 3000000006
+2026-10-05 15:01:48 - Bill generated: 4000000009
+2026-10-05 15:01:57 - Orders viewed.
+2026-10-05 19:17:20 - staff login successful: dev
+[2026-10-05 19:17:31] All tables viewed successfully.
+2026-10-05 19:23:55 - staff login successful: dev
+[2026-10-05 19:23:59] All tables viewed successfully.
+2026-10-05 19:25:50 - Table booked: 8000000007
+2026-10-05 19:29:07 - staff login successful: dev
+[2026-10-05 19:29:10] All tables viewed successfully.
+2026-10-05 19:29:36 - Table booked: 8000000008
+2026-10-05 19:29:47 - Booking status viewed.
+2026-10-05 19:31:22 - Order created: 3000000008
+2026-10-05 19:31:30 - Orders viewed.
+2026-10-05 19:31:55 - Booking status viewed.
+2026-10-05 19:32:24 - Total calculated for order: 3000000008
+2026-10-05 19:32:32 - Total calculated for order: 3000000008
+2026-10-05 19:32:34 - Discount calculated for order: 3000000008
+2026-10-05 19:32:39 - Bill generated: 4000000010
+[2026-10-05 19:34:52] All menu items viewed successfully.
+[2026-10-05 19:35:07] All menu items viewed successfully.
+[2026-10-05 19:37:09] All menu items viewed successfully.
+2026-10-05 19:39:18 - staff login successful: dev
+2026-10-05 19:39:57 - Booking status viewed.
+2026-10-05 19:40:57 - Orders viewed.
+[2026-10-05 19:41:37] All menu items viewed successfully.
+2026-10-05 19:41:46 - Inventory viewed.
+2026-10-05 19:42:23 - Inventory viewed.
+[2026-10-05 19:42:32] All tables viewed successfully.
+2026-10-05 19:44:20 - Orders viewed.
+2026-10-05 19:47:22 - Booking status viewed.
+2026-10-05 20:18:17 - staff login successful: dev
+[2026-10-05 20:18:23] All menu items viewed successfully.
+[2026-10-05 20:19:12] All tables viewed successfully.
+[2026-10-05 20:19:49] All tables viewed successfully.
+2026-10-05 20:20:28 - Table booked: 8000000009
+2026-10-05 20:22:50 - Order created: 3000000009
+2026-10-05 20:23:07 - Total calculated for order: 3000000009
+2026-10-05 20:23:16 - Total calculated for order: 3000000009
+2026-10-05 20:23:19 - Discount calculated for order: 3000000009
+2026-10-05 20:24:33 - Total calculated for order: 3000000009
+2026-10-05 20:24:53 - Discount calculated for order: 3000000009
+2026-10-05 20:25:27 - Bill generated: 4000000011
+[2026-10-05 20:25:51] All tables viewed successfully.
+2026-10-05 20:26:24 - Booking status viewed.
+[2026-10-05 20:29:54] All menu items viewed successfully.
+2026-10-05 20:44:20 - staff login successful: dev
+[2026-10-05 20:46:46] All tables viewed successfully.
+2026-10-05 20:47:28 - Table booked: 8000000010
+2026-10-05 20:47:42 - Booking status viewed.
+[2026-10-05 20:48:03] All tables viewed successfully.
+2026-10-05 20:48:15 - Staff logged out: dev
+2026-10-05 20:48:25 - staff login successful: xyz
+[2026-10-05 20:48:28] All tables viewed successfully.
+2026-10-05 20:50:38 - Staff logged out: xyz
+2026-10-05 20:50:44 - staff login successful: dev
+2026-10-05 20:56:22 - Order created: 3000000010
+2026-10-05 20:56:28 - Orders viewed.
+2026-10-05 20:57:08 - Total calculated for order: 3000000010
+2026-10-05 20:57:41 - Total calculated for order: 3000000010
+2026-10-05 20:57:44 - Discount calculated for order: 3000000010
+2026-10-05 20:57:53 - Bill generated: 4000000012
+2026-10-05 20:58:02 - Booking status viewed.
+2026-10-06 09:50:17 - staff login successful: dev
+2026-10-06 09:52:57 - staff login failed: bhupendra
+2026-10-06 09:53:15 - admin login successful: bhup3ndr@
+[2026-10-06 09:53:30] All tables viewed successfully.
+2026-10-06 09:53:35 - Booking status viewed.
+2026-10-06 10:00:51 - Table booked: 8000000011
+2026-10-06 10:02:33 - Order created: 3000000011
+2026-10-06 10:02:48 - Total calculated for order: 3000000011
+2026-10-06 10:03:03 - Inventory viewed.
+2026-10-06 10:09:48 - Stock updated: 2000000001
+2026-10-06 10:09:53 - Inventory viewed.
+2026-10-06 10:11:44 - Order created: 3000000012
+2026-10-06 10:12:18 - Total calculated for order: 3000000012
+2026-10-06 10:13:17 - Total calculated for order: 3000000012
+2026-10-06 10:13:31 - Total calculated for order: 3000000012
+2026-10-06 10:13:33 - Discount calculated for order: 3000000012
+2026-10-06 10:13:39 - Total calculated for order: 3000000012
+2026-10-06 10:13:45 - Discount calculated for order: 3000000012
+2026-10-06 10:13:56 - Bill generated: 4000000013
+2026-10-06 10:15:02 - Inventory viewed.
+2026-10-06 10:29:14 - staff login successful: dev
+[2026-10-06 10:30:08] All tables viewed successfully.
+2026-10-06 10:30:50 - Table booked: 8000000012
+2026-10-06 10:35:13 - Order created: 3000000013
+2026-10-06 10:35:27 - Inventory viewed.
+2026-10-06 10:41:08 - staff login successful: dev
+2026-10-06 10:41:41 - Staff logged out: dev
+2026-10-06 10:41:53 - admin login failed: bhup3ndr2
+2026-10-06 10:43:07 - admin login successful: bhup3ndr@
+2026-10-06 10:46:13 - admin login failed: bhup3ndr@
+2026-10-06 10:46:28 - admin login successful: bhup3ndr@
+2026-10-06 10:46:35 - Inventory viewed.
+2026-10-06 10:46:50 - staff login successful: dev
+2026-10-06 10:50:12 - Order created: 3000000014
+2026-10-06 10:50:19 - Inventory viewed.
+2026-10-06 13:54:13 - admin login successful: bhup3ndr@
+[2026-10-06 14:04:15] All tables viewed successfully.
+2026-10-06 14:21:45 - admin login successful: bhup3ndr@
+[2026-10-06 14:21:58] All menu items viewed successfully.
+2026-10-07 10:38:24 - staff login successful: dev
+[2026-10-07 10:38:34] Asian and Western menu items viewed successfully.
+2026-10-07 11:21:40 - staff login successful: dev
+[2026-10-07 12:13:58] Asian and Western menu items viewed successfully.
+[2026-10-07 12:14:32] Asian and Western menu items viewed successfully.
+2026-10-07 12:30:21 - staff login successful: dev
+2026-10-07 12:32:25 - staff login successful: dev
+2026-10-07 12:34:54 - Menu items viewed.
+2026-10-07 12:35:31 - staff login successful: dev
+2026-10-07 12:35:32 - Menu items viewed.
+2026-10-07 12:40:33 - staff login successful: dev
+[2026-10-07 12:40:36] Asian, Western and Drinks menu items viewed successfully.
+[2026-10-07 12:43:12] All tables viewed successfully.
+2026-10-07 12:44:13 - Table booked: 8000000013
+[2026-10-07 12:46:41] Asian, Western and Drinks menu items viewed successfully.
+2026-10-07 12:54:52 - staff login successful: dev
+[2026-10-07 12:54:58] All tables viewed successfully.
+[2026-10-07 12:57:59] Asian, Western and Drinks menu items viewed successfully.
+[2026-10-07 12:58:53] Asian, Western and Drinks menu items viewed successfully.
+[2026-10-07 13:01:35] Menu items viewed successfully.
+2026-10-07 13:02:02 - staff login successful: dev
+[2026-10-07 13:02:05] Menu items viewed successfully.
+2026-10-07 13:04:18 - Orders viewed.
+2026-10-07 13:04:48 - Total calculated for order: 3000000014
+2026-10-07 13:04:50 - Discount calculated for order: 3000000014
+2026-10-07 13:04:56 - Bill generated: 4000000014
+[2026-10-07 13:05:44] All tables viewed successfully.
+2026-10-07 13:06:33 - Orders viewed.
+2026-10-07 13:08:08 - Orders viewed.
+2026-10-07 13:10:37 - Orders viewed.
+[2026-10-07 13:12:01] All tables viewed successfully.
+2026-10-07 13:12:29 - Table booked: 8000000014
+2026-10-07 13:21:02 - staff login successful: dev
+2026-10-07 13:22:53 - staff login successful: dev
+2026-10-07 13:24:49 - Order created: 3000000015
+2026-10-07 13:25:10 - Total calculated for order: 3000000015
+2026-10-07 13:25:17 - Total calculated for order: 3000000015
+2026-10-07 13:25:21 - Discount calculated for order: 3000000015
+2026-10-07 13:25:29 - Bill generated: 4000000015
+2026-10-07 13:25:42 - Staff logged out: dev
+2026-10-07 13:25:49 - staff login successful: xyz
+2026-10-07 13:25:55 - Booking status viewed.
+2026-10-07 13:36:00 - admin login successful: bhup3ndr@
+[2026-10-07 13:36:07] Menu items viewed successfully.
+2026-10-07 13:36:51 - Menu item added: water
+[2026-10-07 13:37:00] Menu items viewed successfully.
+2026-10-07 13:37:47 - Menu item deleted: 2000000031
+[2026-10-07 13:37:54] Menu items viewed successfully.
+2026-10-07 13:53:31 - admin login successful: bhup3ndr@
+2026-10-07 18:15:33 - Admin account created.
+2026-10-07 18:15:33 - Default Velmora menu created.
+2026-10-07 18:36:10 - admin login successful: bhup3ndr@
+[2026-10-07 18:36:41] Menu items viewed successfully.
+2026-10-07 18:38:03 - Orders viewed.
+2026-10-07 18:38:46 - Inventory viewed.
+2026-10-07 18:45:19 - Inventory viewed.
+2026-10-07 18:45:21 - Inventory viewed.
+2026-10-07 18:45:22 - Inventory viewed.
+2026-10-07 18:45:23 - Inventory viewed.
+2026-10-07 18:45:23 - Inventory viewed.
+2026-10-07 18:45:24 - Inventory viewed.
+2026-10-07 18:45:24 - Inventory viewed.
+2026-10-07 18:53:17 - staff login successful: dev
+[2026-10-07 18:53:20] Menu items viewed successfully.
+2026-10-07 18:53:29 - Inventory viewed.
