@@ -109,7 +109,7 @@
         "category": "Western",
         "full": 240,
         "half": 150,
-        "quantity": 10
+        "quantity": 9
     },
     {
         "id": "1015",
@@ -149,7 +149,7 @@
         "category": "Western",
         "full": 150,
         "half": 90,
-        "quantity": 41
+        "quantity": 40
     },
     {
         "id": "1020",
@@ -157,76 +157,83 @@
         "category": "Western",
         "full": 170,
         "half": 100,
-        "quantity": 22
+        "quantity": 20
     },
     {
-        "id": "2000000021",
+        "id": "1021",
         "name": "Coca Cola",
         "category": "Drinks",
         "price": 60,
         "quantity": 34
     },
     {
-        "id": "2000000022",
+        "id": "1022",
         "name": "Pepsi",
         "category": "Drinks",
         "price": 60,
-        "quantity": 43
+        "quantity": 41
     },
     {
-        "id": "2000000023",
+        "id": "1023",
         "name": "Sprite",
         "category": "Drinks",
         "price": 60,
         "quantity": 31
     },
     {
-        "id": "2000000024",
+        "id": "1024",
         "name": "Fanta",
         "category": "Drinks",
         "price": 60,
         "quantity": 42
     },
     {
-        "id": "2000000025",
+        "id": "1025",
         "name": "Fresh Lime Soda",
         "category": "Drinks",
         "price": 80,
         "quantity": 23
     },
     {
-        "id": "2000000026",
+        "id": "1026",
         "name": "Cold Coffee",
         "category": "Drinks",
         "price": 120,
         "quantity": 23
     },
     {
-        "id": "2000000027",
+        "id": "1027",
         "name": "Mango Shake",
         "category": "Drinks",
         "price": 130,
         "quantity": 32
     },
     {
-        "id": "2000000028",
+        "id": "1028",
         "name": "Strawberry Shake",
         "category": "Drinks",
         "price": 140,
         "quantity": 42
     },
     {
-        "id": "2000000029",
+        "id": "1029",
         "name": "Iced Tea",
         "category": "Drinks",
         "price": 90,
         "quantity": 52
     },
     {
-        "id": "2000000030",
+        "id": "1030",
         "name": "Mineral Water",
         "category": "Drinks",
         "price": 30,
         "quantity": 36
+    },
+    {
+        "id": "1031",
+        "name": "Banana Shake",
+        "category": "Drinks",
+        "price": 67,
+        "quantity": 35
     }
 ]

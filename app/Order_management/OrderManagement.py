@@ -174,60 +174,104 @@ class OrderManagement:
 
 class CreateOrder(OrderManagement):
 
-    def create_order(self, staff_id):
+    def create_order(self, staff_id, is_admin=False):
 
         print("\n========== NEW ORDER ==========")
         print("Type 'back' to return.")
 
-        booking_id = input("Enter Booking ID: ").strip()
+        print("1. Dine-in")
+        print("2. Takeaway")
+        order_choice = input("Choose order type: ").strip()
 
-        if booking_id.lower() == "back":
+        if order_choice.lower() == "back":
             return
 
-        if not booking_id.isdigit() or len(booking_id) != 10:
-
-            self.save_error("Invalid booking ID.")
-            print("Booking ID must contain exactly 10 digits.")
+        if order_choice not in ("1", "2"):
+            self.save_error("Invalid order type.")
+            print("Choose 1 for dine-in or 2 for takeaway.")
             return
 
-        booking_file = os.path.join(
-            os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-            "database",
-            "bookings.json"
-        )
-
-        try:
-            with open(booking_file, "r") as file:
-                bookings = json.load(file)
-
-        except:
-            self.save_error("Unable to read bookings.json.")
-            print("Booking data not found.")
-            return
-
+        order_type = "Dine-in" if order_choice == "1" else "Takeaway"
         booking = None
+        booking_id = None
+        customer_name = None
+        customer_phone = None
+        people = None
 
-        for item in bookings:
+        if order_type == "Dine-in":
+            booking_id = input("Enter Booking ID: ").strip()
 
-            if item.get("id") == booking_id:
-                booking = item
-                break
+            if booking_id.lower() == "back":
+                return
 
-        if booking is None:
+            if not booking_id.isdigit() or len(booking_id) != 10:
+                self.save_error("Invalid booking ID.")
+                print("Booking ID must contain exactly 10 digits.")
+                return
 
-            self.save_error("Booking not found.")
-            print("Booking not found.")
-            return
+            booking_file = os.path.join(
+                os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                "database",
+                "bookings.json"
+            )
 
-        if booking.get("status") != "Active":
+            try:
+                with open(booking_file, "r") as file:
+                    bookings = json.load(file)
+            except:
+                self.save_error("Unable to read bookings.json.")
+                print("Booking data not found.")
+                return
 
-            print("Booking is not active.")
-            return
+            booking = next(
+                (item for item in bookings if item.get("id") == booking_id),
+                None)
 
-        if booking.get("staff_id") != staff_id:
+            if booking is None:
+                self.save_error("Booking not found.")
+                print("Booking not found.")
+                return
 
-            print("You can only create order for your booking.")
-            return
+            if booking.get("status") != "Active":
+                print("Booking is not active.")
+                return
+
+            if not is_admin and booking.get("staff_id") != staff_id:
+                print("You can only create an order for your booking.")
+                return
+
+            customer_name = str(booking.get("customer_name", "")).strip()
+            customer_phone = str(booking.get("customer_phone", "")).strip()
+            people = booking.get("people")
+
+            if not customer_phone:
+                customer_phone = input("Enter Customer Phone (10 digits): ").strip()
+                if customer_phone.lower() == "back":
+                    return
+                if not customer_phone.isdigit() or len(customer_phone) != 10:
+                    self.save_error("Invalid customer phone number.")
+                    print("Customer phone must contain exactly 10 digits.")
+                    return
+
+                booking["customer_phone"] = customer_phone
+                with open(booking_file, "w") as file:
+                    json.dump(bookings, file, indent=4)
+        else:
+            customer_name = input("Enter Customer Name: ").strip()
+            if customer_name.lower() == "back":
+                return
+            if not customer_name:
+                self.save_error("Invalid customer name for takeaway order.")
+                print("Customer name cannot be empty.")
+                return
+
+            customer_phone = input("Enter Customer Phone (10 digits): ").strip()
+            if customer_phone.lower() == "back":
+                return
+            if not customer_phone.isdigit() or len(customer_phone) != 10:
+                self.save_error("Invalid customer phone number.")
+                print("Customer phone must contain exactly 10 digits.")
+                return
 
         menu = self.load_menu()
 
@@ -324,10 +368,10 @@ class CreateOrder(OrderManagement):
 
                 break
 
-            if not item_id.isdigit() or len(item_id) not in (4, 10):
+            if not item_id.isdigit() or len(item_id) != 4:
 
                 self.save_error("Invalid item ID.")
-                print("Food item IDs must contain 4 digits; drink IDs must contain 10 digits.")
+                print("Menu item IDs must contain exactly 4 digits.")
                 continue
 
             item = self.get_menu_item(item_id)
@@ -396,13 +440,18 @@ class CreateOrder(OrderManagement):
 
         order = {
             "id": order_id,
-            "booking_id": booking_id,
-            "table_id": booking.get("table_id"),
-            "customer_name": booking.get("customer_name"),
+            "order_type": order_type,
+            "customer_name": customer_name,
+            "customer_phone": customer_phone,
             "staff_id": staff_id,
             "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "status": "Active",
             "items": items}
+
+        if booking is not None:
+            order["booking_id"] = booking_id
+            order["table_id"] = booking.get("table_id")
+            order["people"] = people
 
         if not self.change_inventory(items, -1):
             return
@@ -416,8 +465,11 @@ class CreateOrder(OrderManagement):
 
         print("\nOrder created successfully.")
         print("Order ID:", order_id)
-        print("Booking ID:", booking_id)
-        print("Table ID:", booking.get("table_id"))
+        print("Order Type:", order_type)
+        print("Customer:", customer_name)
+        if booking is not None:
+            print("Booking ID:", booking_id)
+            print("Table ID:", booking.get("table_id"))
 
 
 class ViewOrder(OrderManagement):
@@ -437,6 +489,16 @@ class ViewOrder(OrderManagement):
             found = True
 
             print("\nOrder ID :", order.get("id"))
+            print(
+                "Order Type :", order.get(
+                    "order_type",
+                    "Dine-in" if order.get("booking_id") else "Not recorded"))
+            print("Customer   :", order.get("customer_name") or "Not recorded")
+            print("Phone      :", order.get("customer_phone") or "Not recorded")
+            if order.get("booking_id"):
+                print("Booking ID :", order.get("booking_id"))
+                print("Table ID   :", order.get("table_id") or "Not recorded")
+                print("People     :", order.get("people") or "Not recorded")
             print("Staff ID :", order.get("staff_id"))
             print("Date     :", order.get("date"))
             print("Status   :", order.get("status"))

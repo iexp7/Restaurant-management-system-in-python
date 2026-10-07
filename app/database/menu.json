@@ -134,69 +134,75 @@
     },
     {
         "id": "1020",
-        "name": "Chicken Wrap",
+        "name": "Paneer Momos",
         "category": "Western",
-        "full": 170,
-        "half": 100
+        "full": 160.0,
+        "half": 80.0
     },
     {
-        "id": "2000000021",
+        "id": "1021",
         "name": "Coca Cola",
         "category": "Drinks",
         "price": 60
     },
     {
-        "id": "2000000022",
+        "id": "1022",
         "name": "Pepsi",
         "category": "Drinks",
         "price": 60
     },
     {
-        "id": "2000000023",
+        "id": "1023",
         "name": "Sprite",
         "category": "Drinks",
         "price": 60
     },
     {
-        "id": "2000000024",
+        "id": "1024",
         "name": "Fanta",
         "category": "Drinks",
         "price": 60
     },
     {
-        "id": "2000000025",
+        "id": "1025",
         "name": "Fresh Lime Soda",
         "category": "Drinks",
         "price": 80
     },
     {
-        "id": "2000000026",
+        "id": "1026",
         "name": "Cold Coffee",
         "category": "Drinks",
         "price": 120
     },
     {
-        "id": "2000000027",
+        "id": "1027",
         "name": "Mango Shake",
         "category": "Drinks",
         "price": 130
     },
     {
-        "id": "2000000028",
+        "id": "1028",
         "name": "Strawberry Shake",
         "category": "Drinks",
         "price": 140
     },
     {
-        "id": "2000000029",
+        "id": "1029",
         "name": "Iced Tea",
         "category": "Drinks",
         "price": 90
     },
     {
-        "id": "2000000030",
+        "id": "1030",
         "name": "Mineral Water",
         "category": "Drinks",
         "price": 30
+    },
+    {
+        "id": "1031",
+        "name": "Banana Shake",
+        "category": "Drinks",
+        "price": 67.0
     }
 ]

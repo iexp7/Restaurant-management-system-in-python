@@ -630,5 +630,37 @@
     {
         "time": "2026-10-07 18:45:15",
         "message": "Invalid inventory choice."
+    },
+    {
+        "time": "2026-10-07 20:06:58",
+        "message": "Invalid category during menu update."
+    },
+    {
+        "time": "2026-10-07 20:12:45",
+        "message": "Invalid admin menu choice."
+    },
+    {
+        "time": "2026-10-07 20:35:01",
+        "message": "Inventory item not found: Banana Shake"
+    },
+    {
+        "time": "2026-10-07 20:36:44",
+        "message": "Invalid booking ID."
+    },
+    {
+        "time": "2026-10-07 21:02:27",
+        "message": "Invalid booking ID."
+    },
+    {
+        "time": "2026-10-07 21:09:47",
+        "message": "staff login failed for username: bhup3ndr@"
+    },
+    {
+        "time": "2026-10-07 21:15:35",
+        "message": "Invalid order ID during status update."
+    },
+    {
+        "time": "2026-10-07 21:18:46",
+        "message": "Invalid order status update choice."
     }
 ]

@@ -82,7 +82,7 @@ class ui:
             elif choice == "2":
                 self.menu_management()
             elif choice == "3":
-                self.admin_order_management()
+                self.admin_order_management(user.get("id"))
             elif choice == "4":
                 self.billing_menu()
             elif choice == "5":
@@ -90,7 +90,7 @@ class ui:
             elif choice == "6":
                 self.viewtable.view_tables()
             elif choice == "7":
-                self.book_table()
+                self.book_table(user.get("id"))
             elif choice == "8":
                 self.cancel_booking()
             elif choice == "9":
@@ -181,7 +181,7 @@ class ui:
                 self.admin.save_error("Invalid menu management choice.")
                 print("Invalid choice.")
 
-    def admin_order_management(self):
+    def admin_order_management(self, admin_id):
         while True:
             print("\n========== ORDER MANAGEMENT ==========")
             print("1. New Order")
@@ -194,14 +194,7 @@ class ui:
             choice = input("Enter choice: ").strip()
 
             if choice == "1":
-                staff_id = input("Enter Staff ID: ").strip()
-                if staff_id.lower() == "back":
-                    continue
-                if not staff_id.isdigit() or len(staff_id) != 10:
-                    self.admin.save_error("Invalid staff ID.")
-                    print("Staff ID must contain exactly 10 digits.")
-                    continue
-                self.createorder.create_order(staff_id)
+                self.createorder.create_order(admin_id, is_admin=True)
             elif choice == "2":
                 self.vieworder.view_orders()
             elif choice == "3":
@@ -298,19 +291,18 @@ class ui:
 
         self.generatebill.generate_bill(order_id)
 
-    def book_table(self):
+    def book_table(self, admin_id):
         print("\n========== BOOK TABLE ==========")
         print("Type 'back' to return.")
-        staff_id = input("Enter Staff ID: ").strip()
-        if staff_id.lower() == "back":
+        if admin_id == "back":
             return
 
-        if not staff_id.isdigit() or len(staff_id) != 10:
-            self.admin.save_error("Invalid staff ID.")
-            print("Staff ID must contain exactly 10 digits.")
+        if not str(admin_id).isdigit() or len(str(admin_id)) != 10:
+            self.admin.save_error("Invalid admin ID for table booking.")
+            print("Admin ID must contain exactly 10 digits.")
             return
 
-        self.booktable.book_table(staff_id)
+        self.booktable.book_table(admin_id)
 
     def cancel_booking(self):
         print("\n========== CANCEL BOOKING ==========")

@@ -102,7 +102,7 @@
         "id": "4000000010",
         "order_id": "3000000008",
         "booking_id": "8000000008",
-        "table_id": "8000000048",
+        "table_id": "0048",
         "customer_name": "monty",
         "date": "2026-10-05 19:32:39",
         "subtotal": 240,
@@ -116,7 +116,7 @@
         "id": "4000000011",
         "order_id": "3000000009",
         "booking_id": "8000000009",
-        "table_id": "8000000048",
+        "table_id": "0048",
         "customer_name": "abhinav",
         "date": "2026-10-05 20:25:27",
         "subtotal": 640,
@@ -130,7 +130,7 @@
         "id": "4000000012",
         "order_id": "3000000010",
         "booking_id": "8000000010",
-        "table_id": "8000000047",
+        "table_id": "0047",
         "customer_name": "erish",
         "date": "2026-10-05 20:57:53",
         "subtotal": 640,
@@ -144,7 +144,7 @@
         "id": "4000000013",
         "order_id": "3000000012",
         "booking_id": "8000000011",
-        "table_id": "8000000044",
+        "table_id": "0044",
         "customer_name": "rose",
         "date": "2026-10-06 10:13:56",
         "subtotal": 440,
@@ -158,7 +158,7 @@
         "id": "4000000014",
         "order_id": "3000000014",
         "booking_id": "8000000012",
-        "table_id": "8000000007",
+        "table_id": "0007",
         "customer_name": "yhwach",
         "date": "2026-10-07 13:04:56",
         "subtotal": 660,
@@ -172,7 +172,7 @@
         "id": "4000000015",
         "order_id": "3000000015",
         "booking_id": "8000000014",
-        "table_id": "8000000051",
+        "table_id": "0051",
         "customer_name": "riju",
         "date": "2026-10-07 13:25:29",
         "subtotal": 120,
@@ -181,5 +181,91 @@
         "gst": 5.7,
         "total": 119.7,
         "payment": "Online"
+    },
+    {
+        "id": "4000000016",
+        "order_id": "3000000016",
+        "order_type": "Takeaway",
+        "booking_id": null,
+        "table_id": null,
+        "customer_name": "Aarav",
+        "customer_phone": "7014138510",
+        "people": null,
+        "items": [
+            {
+                "item_id": "1031",
+                "name": "Banana Shake",
+                "size": "Regular",
+                "price": 67.0,
+                "quantity": 1,
+                "line_total": 67.0
+            },
+            {
+                "item_id": "1019",
+                "name": "Grilled Sandwich",
+                "size": "Full",
+                "price": 150,
+                "quantity": 1,
+                "line_total": 150
+            },
+            {
+                "item_id": "1020",
+                "name": "Paneer Momos",
+                "size": "Half",
+                "price": 80.0,
+                "quantity": 1,
+                "line_total": 80.0
+            }
+        ],
+        "date": "2026-10-07 20:42:48",
+        "subtotal": 297.0,
+        "discount_percent": 5.0,
+        "discount": 14.85,
+        "gst": 14.11,
+        "total": 296.26,
+        "payment": "Online"
+    },
+    {
+        "id": "4000000017",
+        "order_id": "3000000017",
+        "order_type": "Dine-in",
+        "booking_id": "8000000015",
+        "table_id": "0051",
+        "customer_name": "abhinav",
+        "customer_phone": "6767676767",
+        "people": 2,
+        "items": [
+            {
+                "item_id": "1020",
+                "name": "Paneer Momos",
+                "size": "Full",
+                "price": 160.0,
+                "quantity": 1,
+                "line_total": 160.0
+            },
+            {
+                "item_id": "1022",
+                "name": "Pepsi",
+                "size": "Regular",
+                "price": 60,
+                "quantity": 2,
+                "line_total": 120
+            },
+            {
+                "item_id": "1014",
+                "name": "Margherita Pizza",
+                "size": "Full",
+                "price": 240,
+                "quantity": 1,
+                "line_total": 240
+            }
+        ],
+        "date": "2026-10-07 21:13:37",
+        "subtotal": 520.0,
+        "discount_percent": 5.0,
+        "discount": 26.0,
+        "gst": 24.7,
+        "total": 518.7,
+        "payment": "Cash"
     }
 ]

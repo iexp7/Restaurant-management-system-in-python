@@ -1,7 +1,7 @@
 [
     {
         "id": "9000000001",
-        "table_id": "8000000026",
+        "table_id": "0026",
         "staff_id": "1000000002",
         "customer_name": "Alice",
         "people": 2,
@@ -10,7 +10,7 @@
     },
     {
         "id": "9000000002",
-        "table_id": "8000000027",
+        "table_id": "0027",
         "staff_id": "1000000002",
         "customer_name": "ashman_ka_darindi_priya_parindi",
         "people": 5,
@@ -19,7 +19,7 @@
     },
     {
         "id": "9000000003",
-        "table_id": "8000000026",
+        "table_id": "0026",
         "staff_id": "1000000002",
         "customer_name": "difakkk",
         "people": 5,
@@ -28,7 +28,7 @@
     },
     {
         "id": "9000000004",
-        "table_id": "8000000001",
+        "table_id": "0001",
         "staff_id": "1000000002",
         "customer_name": "dynafrits",
         "people": 10,
@@ -37,7 +37,7 @@
     },
     {
         "id": "9000000005",
-        "table_id": "8000000046",
+        "table_id": "0046",
         "staff_id": "1000000003",
         "customer_name": "lissy",
         "people": 1,
@@ -46,7 +46,7 @@
     },
     {
         "id": "9000000006",
-        "table_id": "8000000051",
+        "table_id": "0051",
         "staff_id": "1000000003",
         "customer_name": "kiwat",
         "people": 2,
@@ -55,7 +55,7 @@
     },
     {
         "id": "8000000007",
-        "table_id": "8000000001",
+        "table_id": "0001",
         "staff_id": "1000000002",
         "customer_name": "John",
         "people": 4,
@@ -64,7 +64,7 @@
     },
     {
         "id": "8000000008",
-        "table_id": "8000000048",
+        "table_id": "0048",
         "staff_id": "1000000003",
         "customer_name": "monty",
         "people": 7,
@@ -73,7 +73,7 @@
     },
     {
         "id": "8000000009",
-        "table_id": "8000000048",
+        "table_id": "0048",
         "staff_id": "1000000003",
         "customer_name": "abhinav",
         "people": 2,
@@ -82,7 +82,7 @@
     },
     {
         "id": "8000000010",
-        "table_id": "8000000047",
+        "table_id": "0047",
         "staff_id": "1000000003",
         "customer_name": "erish",
         "people": 1,
@@ -91,7 +91,7 @@
     },
     {
         "id": "8000000011",
-        "table_id": "8000000044",
+        "table_id": "0044",
         "staff_id": "1000000004",
         "customer_name": "rose",
         "people": 1,
@@ -100,7 +100,7 @@
     },
     {
         "id": "8000000012",
-        "table_id": "8000000007",
+        "table_id": "0007",
         "staff_id": "1000000003",
         "customer_name": "yhwach",
         "people": 10,
@@ -109,20 +109,30 @@
     },
     {
         "id": "8000000013",
-        "table_id": "8000000045",
+        "table_id": "0045",
         "staff_id": "1000000003",
         "customer_name": "kevin",
         "people": 2,
         "date": "2026-10-07 12:44:13",
-        "status": "Active"
+        "status": "Cancelled"
     },
     {
         "id": "8000000014",
-        "table_id": "8000000051",
+        "table_id": "0051",
         "staff_id": "1000000003",
         "customer_name": "riju",
         "people": 1,
         "date": "2026-10-07 13:12:29",
+        "status": "Complete"
+    },
+    {
+        "id": "8000000015",
+        "table_id": "0051",
+        "staff_id": "1000000003",
+        "customer_name": "abhinav",
+        "customer_phone": "6767676767",
+        "people": 2,
+        "date": "2026-10-07 21:10:54",
         "status": "Complete"
     }
 ]

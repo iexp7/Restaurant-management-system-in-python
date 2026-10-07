@@ -69,6 +69,7 @@ The Admin can:
 - Remove Staff
 - Manage Menu
 - Manage Orders
+- Book a table for a customer and create dine-in or takeaway orders
 - Access administrative options
 
 ### Waitstaff
@@ -78,7 +79,7 @@ Multiple staff accounts can be created.
 Staff can access limited restaurant operations such as:
 
 - View Menu
-- Create Order
+- Create dine-in or takeaway orders
 - View Order
 - Update Order
 - Cancel Order
@@ -103,6 +104,8 @@ Each food item supports:
 - Category
 - Price
 
+Restaurant table IDs use exactly 4 digits (for example, `0001`).
+
 Example categories:
 
 ```text
@@ -116,10 +119,14 @@ Western
 
 The billing system is designed to support:
 
+- Customer name and phone number
+- Dine-in booking/table details or takeaway order type
+- Itemized bill with item ID, size, quantity, unit price, and line total
 - Order Subtotal
 - Discount
 - **5% GST**
 - Final Bill
+- Cash Payment
 - Card Payment
 - Online Payment
 

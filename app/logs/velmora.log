@@ -442,3 +442,47 @@
 2026-10-07 18:53:17 - staff login successful: dev
 [2026-10-07 18:53:20] Menu items viewed successfully.
 2026-10-07 18:53:29 - Inventory viewed.
+2026-10-07 19:11:23 - staff login successful: dev
+[2026-10-07 19:11:24] Menu items viewed successfully.
+2026-10-07 20:02:10 - admin login successful: bhup3ndr@
+[2026-10-07 20:02:34] Menu items viewed successfully.
+2026-10-07 20:03:21 - Staff account created: manash
+2026-10-07 20:04:34 - Staff removed: 1000000004
+[2026-10-07 20:04:50] Menu items viewed successfully.
+2026-10-07 20:05:52 - Menu item added: Banana Shake
+[2026-10-07 20:05:56] Menu items viewed successfully.
+2026-10-07 20:12:13 - Menu item updated: 1020
+[2026-10-07 20:12:17] Menu items viewed successfully.
+2026-10-07 20:32:52 - admin login successful: bhup3ndr@
+2026-10-07 20:37:52 - Order created: 3000000016
+2026-10-07 20:41:07 - Total calculated for order: 3000000016
+2026-10-07 20:41:40 - Total calculated for order: 3000000016
+2026-10-07 20:41:44 - Discount calculated for order: 3000000016
+2026-10-07 20:42:48 - Bill generated: 4000000016
+2026-10-07 21:02:09 - staff login successful: dev
+[2026-10-07 21:02:12] Menu items viewed successfully.
+[2026-10-07 21:02:39] All tables viewed successfully.
+2026-10-07 21:02:56 - Orders viewed.
+2026-10-07 21:03:53 - Booking status viewed.
+2026-10-07 21:04:08 - Booking cancelled: 8000000013
+[2026-10-07 21:04:13] All tables viewed successfully.
+2026-10-07 21:09:47 - staff login failed: bhup3ndr@
+2026-10-07 21:10:03 - staff login successful: dev
+[2026-10-07 21:10:05] Menu items viewed successfully.
+[2026-10-07 21:10:11] All tables viewed successfully.
+2026-10-07 21:10:54 - Table booked: 8000000015
+2026-10-07 21:12:27 - Order created: 3000000017
+2026-10-07 21:12:52 - Total calculated for order: 3000000017
+2026-10-07 21:13:18 - Total calculated for order: 3000000017
+2026-10-07 21:13:21 - Discount calculated for order: 3000000017
+2026-10-07 21:13:37 - Bill generated: 4000000017
+2026-10-07 21:14:04 - Orders viewed.
+[2026-10-07 21:14:29] All tables viewed successfully.
+2026-10-07 21:14:45 - Booking status viewed.
+2026-10-07 21:14:58 - Staff logged out: dev
+2026-10-07 21:15:08 - admin login successful: bhup3ndr@
+2026-10-07 21:15:35 - Orders viewed.
+2026-10-07 21:18:46 - Orders viewed.
+2026-10-07 21:18:53 - Orders viewed.
+2026-10-07 21:19:08 - staff login successful: dev
+2026-10-07 21:19:13 - Orders viewed.

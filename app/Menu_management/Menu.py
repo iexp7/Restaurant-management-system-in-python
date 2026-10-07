@@ -201,61 +201,61 @@ class Menu:
                 "half": 100
             },
     {
-        "id": "2000000021",
+        "id": "1021",
         "name": "Coca Cola",
         "category": "Drinks",
         "price": 60
     },
     {
-        "id": "2000000022",
+        "id": "1022",
         "name": "Pepsi",
         "category": "Drinks",
         "price": 60
     },
     {
-        "id": "2000000023",
+        "id": "1023",
         "name": "Sprite",
         "category": "Drinks",
         "price": 60
     },
     {
-        "id": "2000000024",
+        "id": "1024",
         "name": "Fanta",
         "category": "Drinks",
         "price": 60
     },
     {
-        "id": "2000000025",
+        "id": "1025",
         "name": "Fresh Lime Soda",
         "category": "Drinks",
         "price": 80
     },
     {
-        "id": "2000000026",
+        "id": "1026",
         "name": "Cold Coffee",
         "category": "Drinks",
         "price": 120
     },
     {
-        "id": "2000000027",
+        "id": "1027",
         "name": "Mango Shake",
         "category": "Drinks",
         "price": 130
     },
     {
-        "id": "2000000028",
+        "id": "1028",
         "name": "Strawberry Shake",
         "category": "Drinks",
         "price": 140
     },
     {
-        "id": "2000000029",
+        "id": "1029",
         "name": "Iced Tea",
         "category": "Drinks",
         "price": 90
     },
     {
-        "id": "2000000030",
+        "id": "1030",
         "name": "Mineral Water",
         "category": "Drinks",
         "price": 30
@@ -389,27 +389,20 @@ class AddItem:
                 print("Enter valid prices. Half price must be less than Full price.")
                 return
 
-        if category.lower() == "drinks":
-            item_id = str(2000000000 + len(items) + 1)
+        all_four_digit_ids = {
+            int(item["id"])
+            for item in items
+            if str(item.get("id", "")).isdigit()
+            and len(str(item.get("id", ""))) == 4
+        }
+        next_id = max(all_four_digit_ids, default=1000) + 1
 
-            while any(item.get("id") == item_id for item in items):
-                item_id = str(int(item_id) + 1)
-        else:
-            food_ids = {
-                int(item["id"])
-                for item in items
-                if str(item.get("category", "")).lower() != "drinks"
-                and str(item.get("id", "")).isdigit()
-                and len(str(item.get("id", ""))) == 4
-            }
-            next_id = max(food_ids, default=1000) + 1
+        if next_id > 9999:
+            self.save_error("No 4-digit menu IDs are available.")
+            print("No 4-digit menu IDs are available.")
+            return
 
-            if next_id > 9999:
-                self.save_error("No 4-digit food IDs are available.")
-                print("No 4-digit food IDs are available.")
-                return
-
-            item_id = str(next_id)
+        item_id = str(next_id)
 
         if category.lower() == "drinks":
 
@@ -653,9 +646,9 @@ class UpdateItem:
         if item_id.lower() == "back":
             return
 
-        if not item_id.isdigit() or len(item_id) not in (4, 10):
+        if not item_id.isdigit() or len(item_id) != 4:
             self.save_error("Invalid menu item ID.")
-            print("Food item IDs must contain 4 digits; drink IDs must contain 10 digits.")
+            print("Menu item IDs must contain exactly 4 digits.")
             return
 
         item = None
@@ -770,9 +763,9 @@ class DeleteItem:
         if item_id.lower() == "back":
             return
 
-        if not item_id.isdigit() or len(item_id) not in (4, 10):
+        if not item_id.isdigit() or len(item_id) != 4:
             self.save_error("Invalid menu item ID during delete.")
-            print("Food item IDs must contain 4 digits; drink IDs must contain 10 digits.")
+            print("Menu item IDs must contain exactly 4 digits.")
             return
 
         for item in items:

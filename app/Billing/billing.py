@@ -198,7 +198,7 @@ class GenerateBill(Discount):
         if result is None:
             return
 
-        orders_file = os.path.join(BASE_DIR, "database", "orders.json")
+        orders_file = self.order_file
 
         try:
 
@@ -228,15 +228,15 @@ class GenerateBill(Discount):
             print("Bill has already been generated.")
             return
 
-        payment = input("\nPayment (Card/Online): ").strip()
+        payment = input("\nPayment (Cash/Card/Online): ").strip()
 
         if payment.lower() == "back":
             return
 
-        if payment.lower() not in ["card", "online"]:
+        if payment.lower() not in ["cash", "card", "online"]:
 
             self.save_error("Invalid payment method.")
-            print("Payment must be Card or Online.")
+            print("Payment must be Cash, Card, or Online.")
             return
 
         bills = self.load_bills()
@@ -252,9 +252,22 @@ class GenerateBill(Discount):
         bill = {
             "id": bill_id,
             "order_id": order_id,
+            "order_type": order.get(
+                "order_type",
+                "Dine-in" if order.get("booking_id") else "Not recorded"),
             "booking_id": order.get("booking_id"),
             "table_id": order.get("table_id"),
             "customer_name": order.get("customer_name"),
+            "customer_phone": order.get("customer_phone"),
+            "people": order.get("people"),
+            "items": [
+                {
+                    **item,
+                    "line_total": round(
+                        item.get("price", 0) * item.get("quantity", 0), 2)
+                }
+                for item in order.get("items", [])
+            ],
             "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "subtotal": result["subtotal"],
             "discount_percent": result["discount_percent"],
@@ -274,56 +287,78 @@ class GenerateBill(Discount):
             json.dump(orders, file, indent=4)
 
         bookings_file = os.path.join(BASE_DIR, "database", "bookings.json")
-        with open(bookings_file, "r") as file:
-            bookings = json.load(file)
-
         booking_id = str(order.get("booking_id", "")).strip()
         table_id = str(order.get("table_id", "")).strip()
-        booking = next(
-            (
-                item for item in bookings
-                if str(item.get("id", "")).strip() == booking_id), None)
+        if booking_id:
+            with open(bookings_file, "r") as file:
+                bookings = json.load(file)
 
-        if booking is None:
-            self.save_error("Booking not found for completed bill: " + booking_id)
-            print("Warning: booking status could not be updated.")
-        else:
-            booking["status"] = "Complete"
-            table_id = str(booking.get("table_id", table_id)).strip()
-
-            with open(bookings_file, "w") as file:
-                json.dump(bookings, file, indent=4)
-
-        if booking is not None and table_id:
-            tables_file = os.path.join(BASE_DIR, "database", "tables.json")
-            with open(tables_file, "r") as file:
-                tables = json.load(file)
-
-            table = next(
+            booking = next(
                 (
-                    item for item in tables
-                    if str(item.get("id", "")).strip() == table_id), None)
+                    item for item in bookings
+                    if str(item.get("id", "")).strip() == booking_id), None)
 
-            if table is None:
-                self.save_error("Table not found for completed booking: " + table_id)
-                print("Warning: table availability could not be updated.")
+            if booking is None:
+                self.save_error(
+                    "Booking not found for completed bill: " + booking_id)
+                print("Warning: booking status could not be updated.")
             else:
-                table["status"] = "Available"
+                booking["status"] = "Complete"
+                table_id = str(booking.get("table_id", table_id)).strip()
 
-                with open(tables_file, "w") as file:
-                    json.dump(tables, file, indent=4)
-        elif booking is not None:
-            self.save_error("Completed booking has no table ID: " + booking_id)
-            print("Warning: table availability could not be updated.")
+                with open(bookings_file, "w") as file:
+                    json.dump(bookings, file, indent=4)
+
+            if booking is not None and table_id:
+                tables_file = os.path.join(BASE_DIR, "database", "tables.json")
+                with open(tables_file, "r") as file:
+                    tables = json.load(file)
+
+                table = next(
+                    (
+                        item for item in tables
+                        if str(item.get("id", "")).strip() == table_id), None)
+
+                if table is None:
+                    self.save_error(
+                        "Table not found for completed booking: " + table_id)
+                    print("Warning: table availability could not be updated.")
+                else:
+                    table["status"] = "Available"
+
+                    with open(tables_file, "w") as file:
+                        json.dump(tables, file, indent=4)
+            elif booking is not None:
+                self.save_error("Completed booking has no table ID: " + booking_id)
+                print("Warning: table availability could not be updated.")
 
         self.log("Bill generated: " + bill_id)
 
         print("\n========== VELMORA BILL ==========")
         print("Bill ID        :", bill_id)
         print("Order ID       :", order_id)
-        print("Booking ID     :", order.get("booking_id"))
-        print("Table ID       :", order.get("table_id"))
+        print("Order Type     :", bill["order_type"])
+        print("Date           :", bill["date"])
         print("Customer Name  :", order.get("customer_name"))
+        print("Customer Phone :", order.get("customer_phone") or "Not provided")
+        if booking_id:
+            print("Booking ID     :", booking_id)
+            print("Table ID       :", table_id)
+            print("People         :", order.get("people") or "Not recorded")
+        print("\nItems:")
+        print(
+            f"{'Item':<24} {'ID':<12} {'Size':<10} "
+            f"{'Qty':>5} {'Unit Price':>12} {'Line Total':>12}")
+        print("-" * 81)
+        for item in bill["items"]:
+            print(
+                f"{str(item.get('name', 'Unknown')):<24} "
+                f"{str(item.get('item_id', '')):<12} "
+                f"{str(item.get('size', '')):<10} "
+                f"{item.get('quantity', 0):>5} "
+                f"₹{item.get('price', 0):>11.2f} "
+                f"₹{item.get('line_total', 0):>11.2f}")
+        print("-" * 81)
         print("Subtotal       : ₹", result["subtotal"])
         print("Discount       : ₹", result["discount"])
         print("GST 5%         : ₹", result["gst"])

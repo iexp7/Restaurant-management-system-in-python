@@ -103,10 +103,10 @@ class BookTable:
         if table_id.lower() == "back":
             return
 
-        if not table_id.isdigit() or len(table_id) != 10:
+        if not table_id.isdigit() or len(table_id) != 4:
 
             self.save_error("Invalid table ID.")
-            print("Table ID must contain exactly 10 digits.")
+            print("Table ID must contain exactly 4 digits.")
             return
 
         tables = self.load_tables()
@@ -142,6 +142,17 @@ class BookTable:
             print("Customer name cannot be empty.")
             return
 
+        customer_phone = input("Enter Customer Phone (10 digits): ").strip()
+
+        if customer_phone.lower() == "back":
+            return
+
+        if not customer_phone.isdigit() or len(customer_phone) != 10:
+
+            self.save_error("Invalid customer phone number.")
+            print("Customer phone must contain exactly 10 digits.")
+            return
+
         people = input("Enter Number of People: ").strip()
 
         if people.lower() == "back":
@@ -166,6 +177,7 @@ class BookTable:
             "table_id": table_id,
             "staff_id": staff_id,
             "customer_name": customer_name,
+            "customer_phone": customer_phone,
             "people": int(people),
             "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "status": "Active"}
