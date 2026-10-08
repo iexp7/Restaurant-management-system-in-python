@@ -57,7 +57,7 @@ No unnecessary external libraries are used.
 Velmora has only **one Admin account**.
 
 ```
-Username: bhupendra
+Username: bhup3ndr@
 Password: 291769
 ```
 
