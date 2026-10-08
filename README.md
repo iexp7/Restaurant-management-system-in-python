@@ -56,7 +56,7 @@ No unnecessary external libraries are used.
 
 Velmora has only **one Admin account**.
 
-```text
+```
 Username: bhupendra
 Password: 291769
 ```
@@ -108,7 +108,7 @@ Restaurant table IDs use exactly 4 digits (for example, `0001`).
 
 Example categories:
 
-```text
+```
 Asian
 Western
 ```
