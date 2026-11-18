@@ -1,0 +1,352 @@
+[
+    {
+        "id": "0001",
+        "table_number": "VIP 01",
+        "seats": 16,
+        "category": "VIP",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0002",
+        "table_number": "VIP 02",
+        "seats": 14,
+        "category": "VIP",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0003",
+        "table_number": "VIP 03",
+        "seats": 14,
+        "category": "VIP",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0004",
+        "table_number": "VIP 04",
+        "seats": 12,
+        "category": "VIP",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0005",
+        "table_number": "VIP 05",
+        "seats": 12,
+        "category": "VIP",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0006",
+        "table_number": "VIP 06",
+        "seats": 12,
+        "category": "VIP",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0007",
+        "table_number": "VIP 07",
+        "seats": 10,
+        "category": "VIP",
+        "status": "Available"
+    },
+    {
+        "id": "0008",
+        "table_number": "VIP 08",
+        "seats": 10,
+        "category": "VIP",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0009",
+        "table_number": "VIP 09",
+        "seats": 10,
+        "category": "VIP",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0010",
+        "table_number": "VIP 10",
+        "seats": 10,
+        "category": "VIP",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0011",
+        "table_number": "MEDIUM 01",
+        "seats": 8,
+        "category": "MEDIUM",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0012",
+        "table_number": "MEDIUM 02",
+        "seats": 8,
+        "category": "MEDIUM",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0013",
+        "table_number": "MEDIUM 03",
+        "seats": 8,
+        "category": "MEDIUM",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0014",
+        "table_number": "MEDIUM 04",
+        "seats": 8,
+        "category": "MEDIUM",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0015",
+        "table_number": "MEDIUM 05",
+        "seats": 8,
+        "category": "MEDIUM",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0016",
+        "table_number": "MEDIUM 06",
+        "seats": 6,
+        "category": "MEDIUM",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0017",
+        "table_number": "MEDIUM 07",
+        "seats": 6,
+        "category": "MEDIUM",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0018",
+        "table_number": "MEDIUM 08",
+        "seats": 6,
+        "category": "MEDIUM",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0019",
+        "table_number": "MEDIUM 09",
+        "seats": 6,
+        "category": "MEDIUM",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0020",
+        "table_number": "MEDIUM 10",
+        "seats": 6,
+        "category": "MEDIUM",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0021",
+        "table_number": "MEDIUM 11",
+        "seats": 6,
+        "category": "MEDIUM",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0022",
+        "table_number": "MEDIUM 12",
+        "seats": 6,
+        "category": "MEDIUM",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0023",
+        "table_number": "MEDIUM 13",
+        "seats": 6,
+        "category": "MEDIUM",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0024",
+        "table_number": "MEDIUM 14",
+        "seats": 6,
+        "category": "MEDIUM",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0025",
+        "table_number": "MEDIUM 15",
+        "seats": 6,
+        "category": "MEDIUM",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0026",
+        "table_number": "BASIC 01",
+        "seats": 4,
+        "category": "BASIC",
+        "status": "Available"
+    },
+    {
+        "id": "0027",
+        "table_number": "BASIC 02",
+        "seats": 4,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0028",
+        "table_number": "BASIC 03",
+        "seats": 4,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0029",
+        "table_number": "BASIC 04",
+        "seats": 4,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0030",
+        "table_number": "BASIC 05",
+        "seats": 4,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0031",
+        "table_number": "BASIC 06",
+        "seats": 4,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0032",
+        "table_number": "BASIC 07",
+        "seats": 4,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0033",
+        "table_number": "BASIC 08",
+        "seats": 4,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0034",
+        "table_number": "BASIC 09",
+        "seats": 4,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0035",
+        "table_number": "BASIC 10",
+        "seats": 4,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0036",
+        "table_number": "BASIC 11",
+        "seats": 4,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0037",
+        "table_number": "BASIC 12",
+        "seats": 4,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0038",
+        "table_number": "BASIC 13",
+        "seats": 4,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0039",
+        "table_number": "BASIC 14",
+        "seats": 4,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0040",
+        "table_number": "BASIC 15",
+        "seats": 4,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0041",
+        "table_number": "BASIC 16",
+        "seats": 2,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0042",
+        "table_number": "BASIC 17",
+        "seats": 2,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0043",
+        "table_number": "BASIC 18",
+        "seats": 2,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0044",
+        "table_number": "BASIC 19",
+        "seats": 2,
+        "category": "BASIC",
+        "status": "Available"
+    },
+    {
+        "id": "0045",
+        "table_number": "BASIC 20",
+        "seats": 2,
+        "category": "BASIC",
+        "status": "Available"
+    },
+    {
+        "id": "0046",
+        "table_number": "BASIC 21",
+        "seats": 2,
+        "category": "BASIC",
+        "status": "Available"
+    },
+    {
+        "id": "0047",
+        "table_number": "BASIC 22",
+        "seats": 2,
+        "category": "BASIC",
+        "status": "Available"
+    },
+    {
+        "id": "0048",
+        "table_number": "BASIC 23",
+        "seats": 2,
+        "category": "BASIC",
+        "status": "Available"
+    },
+    {
+        "id": "0050",
+        "table_number": "BASIC 24",
+        "seats": 2,
+        "category": "BASIC",
+        "status": "AVAILABLE"
+    },
+    {
+        "id": "0051",
+        "table_number": "BASIC 25",
+        "seats": 2,
+        "category": "BASIC",
+        "status": "Available"
+    }
+]

@@ -1,0 +1,239 @@
+[
+    {
+        "id": "1001",
+        "name": "Chicken Biryani",
+        "category": "Asian",
+        "full": 220,
+        "half": 130,
+        "quantity": 32
+    },
+    {
+        "id": "1002",
+        "name": "Chicken Fried Rice",
+        "category": "Asian",
+        "full": 180,
+        "half": 110,
+        "quantity": 12
+    },
+    {
+        "id": "1003",
+        "name": "Veg Fried Rice",
+        "category": "Asian",
+        "full": 150,
+        "half": 90,
+        "quantity": 23
+    },
+    {
+        "id": "1004",
+        "name": "Hakka Noodles",
+        "category": "Asian",
+        "full": 160,
+        "half": 95,
+        "quantity": 13
+    },
+    {
+        "id": "1005",
+        "name": "Chilli Chicken",
+        "category": "Asian",
+        "full": 210,
+        "half": 125,
+        "quantity": 22
+    },
+    {
+        "id": "1006",
+        "name": "Chicken Manchurian",
+        "category": "Asian",
+        "full": 200,
+        "half": 120,
+        "quantity": 30
+    },
+    {
+        "id": "1007",
+        "name": "Paneer Tikka",
+        "category": "Asian",
+        "full": 190,
+        "half": 115,
+        "quantity": 24
+    },
+    {
+        "id": "1008",
+        "name": "Spring Rolls",
+        "category": "Asian",
+        "full": 140,
+        "half": 85,
+        "quantity": 20
+    },
+    {
+        "id": "1009",
+        "name": "Momos",
+        "category": "Asian",
+        "full": 130,
+        "half": 80,
+        "quantity": 13
+    },
+    {
+        "id": "1010",
+        "name": "Thai Noodles",
+        "category": "Asian",
+        "full": 180,
+        "half": 110,
+        "quantity": 31
+    },
+    {
+        "id": "1011",
+        "name": "Chicken Burger",
+        "category": "Western",
+        "full": 180,
+        "half": 110,
+        "quantity": 27
+    },
+    {
+        "id": "1012",
+        "name": "Veg Burger",
+        "category": "Western",
+        "full": 150,
+        "half": 90,
+        "quantity": 28
+    },
+    {
+        "id": "1013",
+        "name": "Chicken Pizza",
+        "category": "Western",
+        "full": 280,
+        "half": 170,
+        "quantity": 24
+    },
+    {
+        "id": "1014",
+        "name": "Margherita Pizza",
+        "category": "Western",
+        "full": 240,
+        "half": 150,
+        "quantity": 9
+    },
+    {
+        "id": "1015",
+        "name": "Pasta",
+        "category": "Western",
+        "full": 220,
+        "half": 135,
+        "quantity": 17
+    },
+    {
+        "id": "1016",
+        "name": "Chicken Steak",
+        "category": "Western",
+        "full": 320,
+        "half": 190,
+        "quantity": 31
+    },
+    {
+        "id": "1017",
+        "name": "French Fries",
+        "category": "Western",
+        "full": 120,
+        "half": 70,
+        "quantity": 24
+    },
+    {
+        "id": "1018",
+        "name": "Garlic Bread",
+        "category": "Western",
+        "full": 130,
+        "half": 80,
+        "quantity": 12
+    },
+    {
+        "id": "1019",
+        "name": "Grilled Sandwich",
+        "category": "Western",
+        "full": 150,
+        "half": 90,
+        "quantity": 40
+    },
+    {
+        "id": "1020",
+        "name": "Chicken Wrap",
+        "category": "Western",
+        "full": 170,
+        "half": 100,
+        "quantity": 20
+    },
+    {
+        "id": "1021",
+        "name": "Coca Cola",
+        "category": "Drinks",
+        "price": 60,
+        "quantity": 34
+    },
+    {
+        "id": "1022",
+        "name": "Pepsi",
+        "category": "Drinks",
+        "price": 60,
+        "quantity": 41
+    },
+    {
+        "id": "1023",
+        "name": "Sprite",
+        "category": "Drinks",
+        "price": 60,
+        "quantity": 31
+    },
+    {
+        "id": "1024",
+        "name": "Fanta",
+        "category": "Drinks",
+        "price": 60,
+        "quantity": 42
+    },
+    {
+        "id": "1025",
+        "name": "Fresh Lime Soda",
+        "category": "Drinks",
+        "price": 80,
+        "quantity": 23
+    },
+    {
+        "id": "1026",
+        "name": "Cold Coffee",
+        "category": "Drinks",
+        "price": 120,
+        "quantity": 23
+    },
+    {
+        "id": "1027",
+        "name": "Mango Shake",
+        "category": "Drinks",
+        "price": 130,
+        "quantity": 32
+    },
+    {
+        "id": "1028",
+        "name": "Strawberry Shake",
+        "category": "Drinks",
+        "price": 140,
+        "quantity": 42
+    },
+    {
+        "id": "1029",
+        "name": "Iced Tea",
+        "category": "Drinks",
+        "price": 90,
+        "quantity": 52
+    },
+    {
+        "id": "1030",
+        "name": "Mineral Water",
+        "category": "Drinks",
+        "price": 30,
+        "quantity": 36
+    },
+    {
+        "id": "1031",
+        "name": "Banana Shake",
+        "category": "Drinks",
+        "price": 67,
+        "quantity": 35
+    }
+]
